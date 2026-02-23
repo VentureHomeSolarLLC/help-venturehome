@@ -1,0 +1,1056 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "created": "2026-02-23",
+    "total_articles": 42,
+    "total_categories": 6,
+    "content_source": "Helios KB Google Doc",
+    "processing_notes": "Chunked for AI retrieval, question aliases extracted, cross-links identified"
+  },
+  "categories": [
+    {
+      "id": "finance-providers",
+      "name": "Finance Providers",
+      "description": "Billing, contacts, and transfer information for all solar finance partners",
+      "sort_order": 1
+    },
+    {
+      "id": "monitoring",
+      "name": "System Monitoring",
+      "description": "How to monitor your solar system by manufacturer",
+      "sort_order": 2
+    },
+    {
+      "id": "troubleshooting",
+      "name": "Troubleshooting",
+      "description": "Common issues and how to resolve them",
+      "sort_order": 3
+    },
+    {
+      "id": "customer-journey",
+      "name": "Your Solar Journey",
+      "description": "What to expect at every stage from signing to going live",
+      "sort_order": 4
+    },
+    {
+      "id": "billing-production",
+      "name": "Billing & Production",
+      "description": "Understanding your utility bill, net metering, and system performance",
+      "sort_order": 5
+    },
+    {
+      "id": "warranty-service",
+      "name": "Warranty, Service & Add-Ons",
+      "description": "What's covered, how to get help, and upgrading your system",
+      "sort_order": 6
+    }
+  ],
+  "articles": [
+    {
+      "id": "finance-overview",
+      "slug": "finance-provider-overview",
+      "category_id": "finance-providers",
+      "title": "Your Finance Provider: Billing, Contacts, and What to Do if You're Selling or Refinancing",
+      "tags": ["finance", "billing", "refinancing", "home sale", "loan", "lease", "ppa"],
+      "visibility": "customer",
+      "question_aliases": [
+        "Who is my finance provider?",
+        "How do I contact my lender?",
+        "What happens to my solar loan if I sell my house?",
+        "Can I transfer my solar lease to a new buyer?",
+        "How do I refinance with solar?"
+      ],
+      "content_chunks": [
+        {
+          "chunk_index": 0,
+          "content": "Your solar system was financed through one of several providers Venture Home works with. This article explains how to identify your provider, who to contact for billing and account questions, and what steps to take if you're refinancing your home or planning to sell. Your finance provider is listed in the agreement you signed when you went solar. If you're unsure, check any billing statements or emails you received after installation.",
+          "tokens": 65
+        },
+        {
+          "chunk_index": 1,
+          "content": "If you financed your system with a loan, you own the solar equipment. Your monthly payment goes to your lender. Service, warranties, and system support are handled separately through Venture Home. If you have a lease or PPA, the finance company owns the equipment and handles maintenance, repairs, and monitoring at no additional cost.",
+          "tokens": 48
+        }
+      ],
+      "related_article_ids": ["sungage", "mosaic", "dividend", "service-finance", "sunstrong", "selling-home-solar"],
+      "is_published": true,
+      "created_at": "2026-02-23T00:00:00Z",
+      "updated_at": "2026-02-23T00:00:00Z"
+    },
+    {
+      "id": "sungage",
+      "slug": "sungage-financial",
+      "category_id": "finance-providers",
+      "title": "Sungage Financial",
+      "tags": ["sungage", "loan", "finance", "billing", "home sale", "refinancing"],
+      "visibility": "customer",
+      "question_aliases": [
+        "What is Sungage's phone number?",
+        "Can I transfer my Sungage loan?",
+        "How do I refinance with Sungage?",
+        "Sungage contact info"
+      ],
+      "content_chunks": [
+        {
+          "chunk_index": 0,
+          "content": "Sungage Financial contact information: Phone: (844) 786-4243. Hours: Monday through Friday 9am-10pm ET, Saturday 10am-7pm ET. Email: CustomerService@SungageFinancial.com. Billing portal: sungage.com",
+          "tokens": 32
+        },
+        {
+          "chunk_index": 1,
+          "content": "Selling your home: Sungage loans cannot be transferred to a new buyer. The loan must be paid off at closing. Refinancing: Sungage offers options for handling your loan during a refinance — contact them directly to discuss.",
+          "tokens": 28
+        }
+      ],
+      "related_article_ids": ["finance-overview", "selling-home-solar"],
+      "is_published": true,
+      "created_at": "2026-02-23T00:00:00Z",
+      "updated_at": "2026-02-23T00:00:00Z"
+    },
+    {
+      "id": "mosaic",
+      "slug": "mosaic-solar-servicing",
+      "category_id": "finance-providers",
+      "title": "Mosaic / Solar Servicing LLC",
+      "tags": ["mosaic", "solar-servicing", "loan", "finance", "bankruptcy", "billing", "home sale"],
+      "visibility": "customer",
+      "question_aliases": [
+        "Did Mosaic go bankrupt?",
+        "Who services my Mosaic loan now?",
+        "Can I transfer my Mosaic loan?",
+        "Solar Servicing LLC contact"
+      ],
+      "content_chunks": [
+        {
+          "chunk_index": 0,
+          "content": "Important note: Mosaic filed for bankruptcy in 2025. Loan servicing has transitioned to Solar Servicing LLC, a subsidiary of Forbright Bank. Your payment terms are unchanged.",
+          "tokens": 22
+        },
+        {
+          "chunk_index": 1,
+          "content": "Solar Servicing LLC contact: Phone: (866) 493-6367. Hours: Monday-Thursday 8am-10pm ET, Friday 8am-9pm ET, Saturday 8am-1pm ET. Email: loanservicing@solarservicingllc.com. Billing portal: joinmosaic.myaccountinfo.com",
+          "tokens": 36
+        },
+        {
+          "chunk_index": 2,
+          "content": "Selling your home: Solar Servicing LLC does not currently offer loan transfers. The loan must be paid off at closing.",
+          "tokens": 19
+        }
+      ],
+      "related_article_ids": ["finance-overview", "selling-home-solar"],
+      "is_published": true,
+      "created_at": "2026-02-23T00:00:00Z",
+      "updated_at": "2026-02-23T00:00:00Z"
+    },
+    {
+      "id": "dividend",
+      "slug": "dividend-finance",
+      "category_id": "finance-providers",
+      "title": "Dividend Finance",
+      "tags": ["dividend", "loan", "finance", "billing", "home sale", "refinancing", "transfer"],
+      "visibility": "customer",
+      "question_aliases": [
+        "What is Dividend's phone number?",
+        "Can I transfer my Dividend loan to a buyer?",
+        "How do I get a payoff quote from Dividend?",
+        "Dividend Empower portal"
+      ],
+      "content_chunks": [
+        {
+          "chunk_index": 0,
+          "content": "Dividend Finance contact: Phone: (844) 805-7100 — Press 1 for Homeowner. Email: homeowners@dividendfinance.com. Loan transfers: loanretention@dividendfinance.com. Billing portal: Empower Portal at dividendfinance.com",
+          "tokens": 28
+        },
+        {
+          "chunk_index": 1,
+          "content": "Selling your home: The loan may be assumed by the buyer if they pass a credit check. Log into the Empower Portal and select 'Transfer your solar loan' to get started. Important: the full Incentive Investment (tax credit portion) must be paid before the loan can transfer.",
+          "tokens": 41
+        },
+        {
+          "chunk_index": 2,
+          "content": "For a payoff quote, call (844) 805-7100, Press 1, then 3. Refinancing: Contact Dividend directly — your lender may need documentation related to the equipment lien.",
+          "tokens": 24
+        }
+      ],
+      "related_article_ids": ["finance-overview", "selling-home-solar"],
+      "is_published": true,
+      "created_at": "2026-02-23T00:00:00Z",
+      "updated_at": "2026-02-23T00:00:00Z"
+    },
+    {
+      "id": "service-finance",
+      "slug": "service-finance-company",
+      "category_id": "finance-providers",
+      "title": "Service Finance Company",
+      "tags": ["service-finance", "loan", "finance", "billing", "home sale"],
+      "visibility": "customer",
+      "question_aliases": [
+        "Service Finance contact",
+        "Can I transfer my Service Finance loan?"
+      ],
+      "content_chunks": [
+        {
+          "chunk_index": 0,
+          "content": "Service Finance Company contact: Phone: (866) 254-0497. Email: info@svcfin.com. Billing portal: myloan.svcfin.com",
+          "tokens": 16
+        },
+        {
+          "chunk_index": 1,
+          "content": "Selling your home: Contact Service Finance directly. Specific documentation is required, and a $150 processing fee applies if they prepare a sub-agreement. The loan must be current at the time of transfer.",
+          "tokens": 28
+        }
+      ],
+      "related_article_ids": ["finance-overview", "selling-home-solar"],
+      "is_published": true,
+      "created_at": "2026-02-23T00:00:00Z",
+      "updated_at": "2026-02-23T00:00:00Z"
+    },
+    {
+      "id": "credit-human",
+      "slug": "credit-human",
+      "category_id": "finance-providers",
+      "title": "Credit Human",
+      "tags": ["credit-human", "loan", "finance", "billing", "home sale"],
+      "visibility": "customer",
+      "question_aliases": ["Credit Human contact", "Credit Human phone number"],
+      "content_chunks": [
+        {
+          "chunk_index": 0,
+          "content": "Credit Human contact: Phone: (800) 688-7228. Hours: Monday-Friday 7am-7pm CT, Saturday 9am-12pm CT. Email: info@credithuman.com. Website: credithuman.com",
+          "tokens": 22
+        },
+        {
+          "chunk_index": 1,
+          "content": "Selling your home: Contact Credit Human directly for payoff or transfer options.",
+          "tokens": 12
+        }
+      ],
+      "related_article_ids": ["finance-overview"],
+      "is_published": true,
+      "created_at": "2026-02-23T00:00:00Z",
+      "updated_at": "2026-02-23T00:00:00Z"
+    },
+    {
+      "id": "flic-financial",
+      "slug": "flic-financial",
+      "category_id": "finance-providers",
+      "title": "Flic Financial",
+      "tags": ["flic", "loan", "finance", "billing", "home sale"],
+      "visibility": "customer",
+      "question_aliases": ["Flic Financial contact", "Flic Financial phone"],
+      "content_chunks": [
+        {
+          "chunk_index": 0,
+          "content": "Flic Financial contact: Phone: 1-800-392-5581. Email: care@flicfinancial.com",
+          "tokens": 12
+        },
+        {
+          "chunk_index": 1,
+          "content": "Selling your home: Contact Flic Financial directly for payoff or transfer options.",
+          "tokens": 12
+        }
+      ],
+      "related_article_ids": ["finance-overview"],
+      "is_published": true,
+      "created_at": "2026-02-23T00:00:00Z",
+      "updated_at": "2026-02-23T00:00:00Z"
+    },
+    {
+      "id": "participate-energy",
+      "slug": "participate-energy",
+      "category_id": "finance-providers",
+      "title": "Participate Energy",
+      "tags": ["participate", "loan", "finance", "billing", "home sale"],
+      "visibility": "customer",
+      "question_aliases": ["Participate Energy contact", "Participate Energy phone"],
+      "content_chunks": [
+        {
+          "chunk_index": 0,
+          "content": "Participate Energy contact: Phone: 888-842-7798 (888-8-HAPPY-8)",
+          "tokens": 10
+        },
+        {
+          "chunk_index": 1,
+          "content": "Selling your home: Contact Participate Energy directly for payoff or transfer options.",
+          "tokens": 12
+        }
+      ],
+      "related_article_ids": ["finance-overview"],
+      "is_published": true,
+      "created_at": "2026-02-23T00:00:00Z",
+      "updated_at": "2026-02-23T00:00:00Z"
+    },
+    {
+      "id": "sunstrong",
+      "slug": "sunstrong-management",
+      "category_id": "finance-providers",
+      "title": "SunStrong Management (SunPower, Sunnova, Posigen)",
+      "tags": ["sunstrong", "sunpower", "sunnova", "posigen", "lease", "ppa", "bankruptcy", "billing", "home sale"],
+      "visibility": "customer",
+      "question_aliases": [
+        "SunPower went bankrupt what do I do?",
+        "Sunnova bankruptcy who do I call?",
+        "How do I transfer my SunPower lease?",
+        "SunStrong contact information"
+      ],
+      "content_chunks": [
+        {
+          "chunk_index": 0,
+          "content": "Important: SunPower filed for bankruptcy in 2024. Sunnova filed for bankruptcy in 2025. Lease and PPA accounts for SunPower, Sunnova, and Posigen are now managed by SunStrong Management.",
+          "tokens": 26
+        },
+        {
+          "chunk_index": 1,
+          "content": "SunStrong Management contact: Phone: (833) 514-1858. Email: sunpower@youronlineaccount.com. Billing and support portal: sunstrongmanagement.com",
+          "tokens": 20
+        },
+        {
+          "chunk_index": 2,
+          "content": "Service coverage includes: 24/7 system monitoring, all maintenance and repairs, equipment warranties honored by original manufacturers, production guarantee per your original agreement.",
+          "tokens": 21
+        },
+        {
+          "chunk_index": 3,
+          "content": "Selling your home: Contact SunStrong to initiate a home transfer as soon as you have a potential buyer. The buyer must pass a credit check (FICO 650+ for Sunnova accounts). You may also buy out the system — contact SunStrong for a buyout quote.",
+          "tokens": 36
+        }
+      ],
+      "related_article_ids": ["finance-overview", "selling-home-solar", "tpo-coverage"],
+      "is_published": true,
+      "created_at": "2026-02-23T00:00:00Z",
+      "updated_at": "2026-02-23T00:00:00Z"
+    },
+    {
+      "id": "palmetto-lightreach",
+      "slug": "palmetto-lightreach",
+      "category_id": "finance-providers",
+      "title": "Palmetto LightReach",
+      "tags": ["palmetto", "lightreach", "lease", "ppa", "billing", "home sale", "app"],
+      "visibility": "customer",
+      "question_aliases": [
+        "Palmetto LightReach contact",
+        "How do I transfer my LightReach agreement?",
+        "Palmetto app download"
+      ],
+      "content_chunks": [
+        {
+          "chunk_index": 0,
+          "content": "Palmetto LightReach: Website: golightreach.com / palmetto.com. App: Palmetto App (App Store and Google Play). Customer service: Check your billing statement for direct contact number, or log into your Palmetto account.",
+          "tokens": 28
+        },
+        {
+          "chunk_index": 1,
+          "content": "Service coverage: 24/7 proactive monitoring, all maintenance and repairs included, 25-year extended hardware warranties, 90% production guarantee for 25 years — if your system falls short, Palmetto compensates you for the difference.",
+          "tokens": 32
+        },
+        {
+          "chunk_index": 2,
+          "content": "Selling your home: The LightReach plan can be transferred to the new buyer subject to credit approval and signed transfer agreement. You may also buy out the system — contact Palmetto for terms. Start early, as transfer paperwork takes time.",
+          "tokens": 35
+        }
+      ],
+      "related_article_ids": ["finance-overview", "selling-home-solar", "tpo-coverage"],
+      "is_published": true,
+      "created_at": "2026-02-23T00:00:00Z",
+      "updated_at": "2026-02-23T00:00:00Z"
+    },
+    {
+      "id": "igs-energy",
+      "slug": "igs-energy",
+      "category_id": "finance-providers",
+      "title": "IGS Energy",
+      "tags": ["igs", "lease", "ppa", "billing", "home sale"],
+      "visibility": "customer",
+      "question_aliases": ["IGS Energy contact", "IGS Energy phone number"],
+      "content_chunks": [
+        {
+          "chunk_index": 0,
+          "content": "IGS Energy contact: Phone: (877) 995-4447. Hours: Monday-Friday 8am-8pm ET, Saturday 9am-3pm ET. Email: customersupport@igsenergy.com. Website: igs.com",
+          "tokens": 23
+        },
+        {
+          "chunk_index": 1,
+          "content": "Service coverage: System monitoring included, maintenance included for life of agreement, dedicated single point of contact, production guarantee per your agreement.",
+          "tokens": 21
+        },
+        {
+          "chunk_index": 2,
+          "content": "Selling your home: Contact IGS directly to initiate a transfer or discuss a buyout. IGS uses Solar360 platform for account and billing management.",
+          "tokens": 22
+        }
+      ],
+      "related_article_ids": ["finance-overview", "selling-home-solar", "tpo-coverage"],
+      "is_published": true,
+      "created_at": "2026-02-23T00:00:00Z",
+      "updated_at": "2026-02-23T00:00:00Z"
+    },
+    {
+      "id": "enfin",
+      "slug": "enfin-qcells",
+      "category_id": "finance-providers",
+      "title": "Enfin (by Qcells)",
+      "tags": ["enfin", "qcells", "lease", "ppa", "billing", "home sale"],
+      "visibility": "customer",
+      "question_aliases": [
+        "Enfin contact information",
+        "How do I transfer my Enfin agreement?",
+        "Can I buy out my Enfin system?"
+      ],
+      "content_chunks": [
+        {
+          "chunk_index": 0,
+          "content": "Enfin contact: Phone: (833) 586-3677. Hours: Monday-Friday 5am-9pm PT, Saturday-Sunday 7am-4pm PT. Website: enfin.com",
+          "tokens": 19
+        },
+        {
+          "chunk_index": 1,
+          "content": "Service coverage: 24/7 monitoring by Omnidian, all maintenance and repairs included at no cost for 25 years, battery and inverter replacements included if needed, production guarantee with per-kWh compensation for underproduction.",
+          "tokens": 32
+        },
+        {
+          "chunk_index": 2,
+          "content": "Selling your home: You have three options — transfer the agreement to the new buyer, buy out the system (available after 5 years), or prepay remaining monthly payments. Contact Enfin at least 30 days before closing.",
+          "tokens": 35
+        }
+      ],
+      "related_article_ids": ["finance-overview", "selling-home-solar", "tpo-coverage"],
+      "is_published": true,
+      "created_at": "2026-02-23T00:00:00Z",
+      "updated_at": "2026-02-23T00:00:00Z"
+    }
+  ]
+}{
+  "articles": [
+    {
+      "id": "monitoring-enphase",
+      "slug": "monitoring-enphase-system",
+      "category_id": "monitoring",
+      "title": "Monitoring Your Enphase System",
+      "tags": ["enphase", "monitoring", "app", "production", "battery"],
+      "visibility": "customer",
+      "question_aliases": [
+        "How do I check my Enphase system?",
+        "Enphase app download",
+        "What does normal Enphase production look like?",
+        "How do I use the Enphase app?"
+      ],
+      "content_chunks": [
+        {
+          "chunk_index": 0,
+          "content": "Your Enphase solar system comes with the Enphase App, which gives you a real-time view of your system's performance from your phone. Download the Enphase App from the App Store or Google Play. You'll need to create an Enphase account or log in if one was already set up during installation.",
+          "tokens": 43
+        },
+        {
+          "chunk_index": 1,
+          "content": "The home screen shows real-time power production, home consumption, and battery status if you have one. The app displays an energy flow diagram showing the relationship between your solar panels, battery, home, and the grid at any given moment.",
+          "tokens": 36
+        },
+        {
+          "chunk_index": 2,
+          "content": "On a clear day, your production graph should show a smooth bell curve — starting at zero before sunrise, climbing through the morning, peaking in early afternoon, and tapering back to zero by sunset. Shorter curves are normal in winter or on cloudy days.",
+          "tokens": 39
+        },
+        {
+          "chunk_index": 3,
+          "content": "What you don't want to see: flat lines during daylight hours, sudden drops, or days with zero production. These indicate potential issues. If you see errors or alerts, check our troubleshooting guide or contact Customer Success.",
+          "tokens": 32
+        }
+      ],
+      "related_article_ids": ["troubleshooting-enphase", "enphase-battery-settings", "production-low"],
+      "is_published": true,
+      "created_at": "2026-02-23T00:00:00Z",
+      "updated_at": "2026-02-23T00:00:00Z"
+    },
+    {
+      "id": "monitoring-solaredge",
+      "slug": "monitoring-solaredge-system",
+      "category_id": "monitoring",
+      "title": "Monitoring Your SolarEdge System",
+      "tags": ["solaredge", "monitoring", "app", "production", "mySolarEdge"],
+      "visibility": "customer",
+      "question_aliases": [
+        "How do I check my SolarEdge system?",
+        "SolarEdge app download",
+        "mySolarEdge login",
+        "What does normal SolarEdge production look like?"
+      ],
+      "content_chunks": [
+        {
+          "chunk_index": 0,
+          "content": "Your SolarEdge system is monitored through the mySolarEdge app, available on the App Store and Google Play. Download the app and log in using your SolarEdge account credentials.",
+          "tokens": 28
+        },
+        {
+          "chunk_index": 1,
+          "content": "The dashboard shows current power output, today's total energy production, and lifetime generation. You can view daily, weekly, monthly, and yearly production charts. The app also shows individual panel-level data — you can see exactly how each panel is performing.",
+          "tokens": 39
+        },
+        {
+          "chunk_index": 2,
+          "content": "On sunny days, production should follow a bell curve peaking in early afternoon. All panels should show similar output levels. If one panel is consistently showing significantly lower production, that may indicate an issue.",
+          "tokens": 32
+        }
+      ],
+      "related_article_ids": ["troubleshooting-solaredge", "production-low"],
+      "is_published": true,
+      "created_at": "2026-02-23T00:00:00Z",
+      "updated_at": "2026-02-23T00:00:00Z"
+    },
+    {
+      "id": "monitoring-tesla",
+      "slug": "monitoring-tesla-system",
+      "category_id": "monitoring",
+      "title": "Monitoring Your Tesla Solar System",
+      "tags": ["tesla", "monitoring", "app", "production", "powerwall"],
+      "visibility": "customer",
+      "question_aliases": [
+        "How do I check my Tesla solar system?",
+        "Tesla app solar monitoring",
+        "What does normal Tesla production look like?",
+        "How do I monitor my Powerwall?"
+      ],
+      "content_chunks": [
+        {
+          "chunk_index": 0,
+          "content": "Your Tesla solar system is monitored through the Tesla app — the same app used for Tesla vehicles. Download from the App Store or Google Play and log in with your Tesla account credentials.",
+          "tokens": 29
+        },
+        {
+          "chunk_index": 1,
+          "content": "The Energy tab shows real-time energy flow between solar panels, home consumption, grid usage, and Powerwall status. Tap into each category for more detail and view production history by day, week, month, or year.",
+          "tokens": 33
+        },
+        {
+          "chunk_index": 2,
+          "content": "If you have a Powerwall, the app gives you full control over settings including backup reserve percentage, operating mode (self-powered, time-based control, or backup-only), and Storm Watch activation.",
+          "tokens": 29
+        },
+        {
+          "chunk_index": 3,
+          "content": "Solar production should follow a smooth bell curve on sunny days. The energy flow screen shows energy flowing from panels to home and battery during the day, and from battery or grid to home at night.",
+          "tokens": 33
+        }
+      ],
+      "related_article_ids": ["troubleshooting-tesla", "tesla-powerwall-settings", "production-low"],
+      "is_published": true,
+      "created_at": "2026-02-23T00:00:00Z",
+      "updated_at": "2026-02-23T00:00:00Z"
+    },
+    {
+      "id": "monitoring-sunpower",
+      "slug": "monitoring-sunpower-system",
+      "category_id": "monitoring",
+      "title": "Monitoring Your SunPower System",
+      "tags": ["sunpower", "monitoring", "app", "production", "sunstrong"],
+      "visibility": "customer",
+      "question_aliases": [
+        "Which app do I use for SunPower?",
+        "SunPower app vs Enphase app",
+        "How do I check my SunPower system?",
+        "SunStrong app download"
+      ],
+      "content_chunks": [
+        {
+          "chunk_index": 0,
+          "content": "SunPower customers may use one of three apps depending on system configuration: the SunPower App, the Enphase App, or the SunStrong App. Contact Customer Success if you're unsure which applies to your system.",
+          "tokens": 31
+        },
+        {
+          "chunk_index": 1,
+          "content": "The SunPower App provides a dashboard showing current production, daily and historical generation, and estimated savings. The Enphase App is used for systems with Enphase microinverters — see our Enphase monitoring guide. The SunStrong App is for newer SunPower systems managed by SunStrong.",
+          "tokens": 41
+        },
+        {
+          "chunk_index": 2,
+          "content": "Production should follow a bell curve on sunny days — rising in the morning, peaking in early afternoon, and dropping to zero by sunset. Consistent daily production with no gaps during daylight hours indicates a healthy system.",
+          "tokens": 35
+        }
+      ],
+      "related_article_ids": ["monitoring-enphase", "sunstrong", "troubleshooting-sunpower", "production-low"],
+      "is_published": true,
+      "created_at": "2026-02-23T00:00:00Z",
+      "updated_at": "2026-02-23T00:00:00Z"
+    }
+  ]
+}{
+  "articles": [
+    {
+      "id": "troubleshooting-overview",
+      "slug": "system-troubleshooting-guide",
+      "category_id": "troubleshooting",
+      "title": "System Troubleshooting: Errors, Connectivity, and Breaker Resets",
+      "tags": ["troubleshooting", "errors", "connectivity", "breakers", "wifi", "offline"],
+      "visibility": "customer",
+      "question_aliases": [
+        "My app shows an error what do I do?",
+        "System stopped producing",
+        "How do I reset my solar system?",
+        "Monitoring app not working",
+        "My system is offline"
+      ],
+      "content_chunks": [
+        {
+          "chunk_index": 0,
+          "content": "If your monitoring app is showing an error, your system appears to have stopped producing, or your app has lost connection, there are a few simple things you can check before contacting support. Start by opening your monitoring app and looking for any error alerts or notifications.",
+          "tokens": 40
+        },
+        {
+          "chunk_index": 1,
+          "content": "Step 1: Check your wifi or cellular connection. All Venture Home monitoring systems communicate over wifi, cellular, or both. If your home wifi is down or your router was recently changed, your system may need to be reconnected. For Enphase, SolarEdge, and Tesla: if you changed your wifi network name or password, contact Customer Success and we can help update your network credentials remotely.",
+          "tokens": 55
+        },
+        {
+          "chunk_index": 2,
+          "content": "A connectivity issue does not affect your system's production — your panels are still generating power even if the app isn't updating. For SunPower customers with a PV Supervisor: your system uses wifi only and does not have cellular backup. Once wifi is restored, the system should reconnect on its own within a few minutes.",
+          "tokens": 47
+        },
+        {
+          "chunk_index": 3,
+          "content": "Step 2: Check your breakers. If your app shows an error or your system has stopped producing entirely, a tripped breaker is often the cause. Enphase systems have a dedicated Enphase Combiner or IQ System Controller enclosure — look for any breakers inside. If a breaker is tripped (middle or 'off' position), flip it fully off and then back on.",
+          "tokens": 55
+        },
+        {
+          "chunk_index": 4,
+          "content": "SolarEdge inverters have two key switches: a red ON/OFF toggle and a black DC disconnect dial. Turn both to off, wait 30 seconds, then turn the DC disconnect back on followed by the red toggle. Tesla systems can often be restarted remotely by our team. SunPower customers should check the main electrical panel for a dedicated solar breaker.",
+          "tokens": 56
+        },
+        {
+          "chunk_index": 5,
+          "content": "Still seeing an issue? Contact our Customer Success team. Have ready: the error message shown in your app, which system you have (Enphase, Tesla, SolarEdge, or SunPower), and approximately when the issue started. We can review your system's data remotely and determine whether a service visit is needed.",
+          "tokens": 45
+        }
+      ],
+      "related_article_ids": ["monitoring-enphase", "monitoring-solaredge", "monitoring-tesla", "monitoring-sunpower", "contact-support"],
+      "is_published": true,
+      "created_at": "2026-02-23T00:00:00Z",
+      "updated_at": "2026-02-23T00:00:00Z"
+    },
+    {
+      "id": "production-low",
+      "slug": "my-production-seems-low",
+      "category_id": "troubleshooting",
+      "title": "My Production Seems Low — What's Going On?",
+      "tags": ["production", "low", "bill", "seasonal", "troubleshooting"],
+      "visibility": "customer",
+      "question_aliases": [
+        "Why is my bill higher than expected?",
+        "My solar isn't producing enough",
+        "Why did my production drop?",
+        "Is my solar system working properly?"
+      ],
+      "content_chunks": [
+        {
+          "chunk_index": 0,
+          "content": "If you've noticed a higher-than-expected utility bill or feel like your solar system isn't performing the way it used to, you're not alone. The most common reason customers feel their production is low is a higher utility bill — but these are two different things. Your solar system offsets a portion of your electricity usage, but if your consumption has increased, your bill can rise even when your system is producing normally.",
+          "tokens": 63
+        },
+        {
+          "chunk_index": 1,
+          "content": "Seasonal changes have a significant impact. Solar production is naturally lower in fall and winter due to shorter days, lower sun angles, and more cloud cover. A system producing 40% less in December than in June is completely normal. Before assuming something is wrong with your system, consider whether anything in your home has changed.",
+          "tokens": 50
+        },
+        {
+          "chunk_index": 2,
+          "content": "The best way to confirm your system is working is to log into your monitoring app. Look for consistent daily production with no gaps or error alerts. Red flags include days with zero production, sudden drops compared to the same period last year, or error notifications from your inverter.",
+          "tokens": 43
+        },
+        {
+          "chunk_index": 3,
+          "content": "Contact support if you see: multiple consecutive days of zero production, a significant and unexplained drop compared to the same month last year, error alerts in your monitoring app, or any visible damage to your panels or inverter.",
+          "tokens": 35
+        }
+      ],
+      "related_article_ids": ["troubleshooting-overview", "understanding-net-metering", "how-solar-changes-bill", "winter-solar"],
+      "is_published": true,
+      "created_at": "2026-02-23T00:00:00Z",
+      "updated_at": "2026-02-23T00:00:00Z"
+    }
+  ]
+}{
+  "articles": [
+    {
+      "id": "pre-install-process",
+      "slug": "what-happens-between-signing-and-installation",
+      "category_id": "customer-journey",
+      "title": "What Happens Between Signing and Installation?",
+      "tags": ["pre-install", "timeline", "permitting", "design", "HOA"],
+      "visibility": "customer",
+      "question_aliases": [
+        "How long until my solar is installed?",
+        "What is the timeline for solar installation?",
+        "When will my solar be installed?",
+        "What happens after I sign the contract?"
+      ],
+      "content_chunks": [
+        {
+          "chunk_index": 0,
+          "content": "After you sign your agreement with Venture Home, there are several steps before your installation day. Most customers find this period to be the longest part of the process — typically around 90 days from signing to installation, though it can vary depending on your town and utility company.",
+          "tokens": 41
+        },
+        {
+          "chunk_index": 1,
+          "content": "You'll be assigned a Regional Operations Manager and Senior Project Manager who will oversee your project from start to finish. Our engineering team will finalize the custom design for your solar system based on your roof, energy usage, and goals.",
+          "tokens": 36
+        },
+        {
+          "chunk_index": 2,
+          "content": "Permitting and utility approvals is typically the longest step. Venture Home handles all permitting with your town and the interconnection application with your utility company on your behalf. You don't need to do anything — we manage the paperwork, submissions, and follow-up. Timelines are set by your municipality and utility.",
+          "tokens": 46
+        },
+        {
+          "chunk_index": 3,
+          "content": "If your neighborhood has a homeowners association, Venture Home will work directly with your HOA to obtain any required approvals. Your project team will keep you informed as key milestones are reached. If you ever want a status update, our Customer Success team is available to help.",
+          "tokens": 41
+        }
+      ],
+      "related_article_ids": ["installation-day", "awaiting-pto"],
+      "is_published": true,
+      "created_at": "2026-02-23T00:00:00Z",
+      "updated_at": "2026-02-23T00:00:00Z"
+    },
+    {
+      "id": "installation-day",
+      "slug": "what-to-expect-on-installation-day",
+      "category_id": "customer-journey",
+      "title": "What to Expect on Installation Day",
+      "tags": ["installation", "install day", "what to expect", "preparation"],
+      "visibility": "customer",
+      "question_aliases": [
+        "What happens on installation day?",
+        "How long does installation take?",
+        "Do I need to be home for solar installation?",
+        "Will my power go out during installation?"
+      ],
+      "content_chunks": [
+        {
+          "chunk_index": 0,
+          "content": "Installation day is when your solar system goes from a plan to hardware on your roof. Most residential installations are completed in a single day. Larger systems or jobs with complex electrical work may require a second day. Your project coordinator will give you advance notice if your job is expected to run into a second day.",
+          "tokens": 47
+        },
+        {
+          "chunk_index": 1,
+          "content": "An adult must be present at the home for the duration of the installation. Our crew will need access to the interior of your home, including your electrical panel and attic. Connecting your solar system requires us to shut off power temporarily. If this applies, the outage typically lasts between 30 minutes and two hours.",
+          "tokens": 45
+        },
+        {
+          "chunk_index": 2,
+          "content": "Before the crew arrives, please ensure there is room for two vans to park near your home. Clear any obstacles blocking access to your electrical panel or attic, and ensure the attic entry is accessible. If you have a gate or locked area, make sure it's unlocked for the day.",
+          "tokens": 42
+        },
+        {
+          "chunk_index": 3,
+          "content": "Once installation is complete, your system will be fully installed but not yet turned on. Before activation, it needs to pass a municipal inspection and receive Permission to Operate from your utility company. Your crew will walk you through what was installed before they leave.",
+          "tokens": 41
+        }
+      ],
+      "related_article_ids": ["pre-install-process", "awaiting-pto", "what-is-pto"],
+      "is_published": true,
+      "created_at": "2026-02-23T00:00:00Z",
+      "updated_at": "2026-02-23T00:00:00Z"
+    },
+    {
+      "id": "what-is-pto",
+      "slug": "permission-to-operate-pto-explained",
+      "category_id": "customer-journey",
+      "title": "Permission to Operate (PTO) — Why Your System Isn't On Yet",
+      "tags": ["PTO", "permission to operate", "inspection", "utility", "activation"],
+      "visibility": "customer",
+      "question_aliases": [
+        "What is PTO?",
+        "Why isn't my solar system on?",
+        "How long does PTO take?",
+        "When will my system be turned on?",
+        "What happens at utility inspection?"
+      ],
+      "content_chunks": [
+        {
+          "chunk_index": 0,
+          "content": "After your solar installation is complete, your system cannot be turned on until your utility company grants Permission to Operate (PTO). This is required approval that allows your system to connect to the grid. The timeline is set by your municipality and utility company, not Venture Home.",
+          "tokens": 41
+        },
+        {
+          "chunk_index": 1,
+          "content": "The process has two main steps. First, a local inspector must visit your home to approve the installation — typically scheduled within one to four weeks. Once the inspection passes, the inspector issues a certificate of completion and notifies the utility to release the job. This handoff step is outside our control and can occasionally cause delays.",
+          "tokens": 51
+        },
+        {
+          "chunk_index": 2,
+          "content": "Second, once your utility receives the release, they conduct their own review and issue PTO. This step typically takes an additional one to three weeks. In total, most customers receive PTO within three to five weeks of their completed installation.",
+          "tokens": 37
+        },
+        {
+          "chunk_index": 3,
+          "content": "During this waiting period, your system is fully installed and ready — it simply cannot be activated until approval is received. You do not need to take any action. Venture Home monitors the status and will notify you as soon as PTO is granted and your system is activated.",
+          "tokens": 40
+        },
+        {
+          "chunk_index": 4,
+          "content": "Important: You must not turn your solar system on before receiving official Permission to Operate. Activating your system before PTO can result in penalties from your utility and may affect your net metering eligibility. Your inverter is left in standby state specifically to prevent activation until PTO is confirmed.",
+          "tokens": 44
+        }
+      ],
+      "related_article_ids": ["installation-day", "awaiting-pto", "system-live"],
+      "is_published": true,
+      "created_at": "2026-02-23T00:00:00Z",
+      "updated_at": "2026-02-23T00:00:00Z"
+    },
+    {
+      "id": "understanding-net-metering",
+      "slug": "understanding-net-metering-utility-bill",
+      "category_id": "billing-production",
+      "title": "Understanding Net Metering and Your Utility Bill",
+      "tags": ["net metering", "utility bill", "credits", "how it works", "billing"],
+      "visibility": "customer",
+      "question_aliases": [
+        "How does net metering work?",
+        "What are net metering credits?",
+        "Why do I still have an electric bill?",
+        "How are solar credits applied?"
+      ],
+      "content_chunks": [
+        {
+          "chunk_index": 0,
+          "content": "Net metering is a billing arrangement between you and your utility company. When your solar system produces more electricity than your home is using, the excess power flows back to the grid and your utility credits your account. When your system isn't producing enough — at night, on cloudy days, or during high-consumption periods — you draw from the grid and those credits offset what you owe.",
+          "tokens": 56
+        },
+        {
+          "chunk_index": 1,
+          "content": "Think of it like a bank account: you deposit energy when you have a surplus and withdraw it when you need it. Most Venture Home customers are on true net metering, where your excess energy is credited at or near the full retail rate of electricity.",
+          "tokens": 38
+        },
+        {
+          "chunk_index": 2,
+          "content": "Net metering credits roll over from month to month. Your system is designed to overproduce in spring and summer, building up credits that offset your higher-consumption winter months. Some utilities perform an annual true-up where remaining credits are paid out at a lower rate. Connecticut customers use 'netting' instead of net metering — excess generation is compensated as a monetary credit.",
+          "tokens": 55
+        },
+        {
+          "chunk_index": 3,
+          "content": "You will still receive a monthly electric bill because of fixed charges — customer charges, delivery fees, and distribution charges that cannot be offset by solar credits. Your goal with solar is to significantly reduce your annual electricity costs, not eliminate your bill entirely.",
+          "tokens": 39
+        }
+      ],
+      "related_article_ids": ["how-solar-changes-bill", "production-low", "net-metering-credits-missing"],
+      "is_published": true,
+      "created_at": "2026-02-23T00:00:00Z",
+      "updated_at": "2026-02-23T00:00:00Z"
+    },
+    {
+      "id": "how-solar-changes-bill",
+      "slug": "how-will-solar-change-my-utility-bill",
+      "category_id": "billing-production",
+      "title": "How Will Solar Change My Utility Bill?",
+      "tags": ["utility bill", "savings", "seasonal", "winter", "summer"],
+      "visibility": "customer",
+      "question_aliases": [
+        "What will my electric bill be with solar?",
+        "Why is my bill higher in winter?",
+        "How much will I save with solar?",
+        "Why didn't my bill disappear?"
+      ],
+      "content_chunks": [
+        {
+          "chunk_index": 0,
+          "content": "When your system first turns on, your utility bill won't disappear overnight. You'll still receive a monthly bill that covers any electricity your solar system didn't produce, plus fixed charges like customer and delivery fees that cannot be offset by solar.",
+          "tokens": 37
+        },
+        {
+          "chunk_index": 1,
+          "content": "Monthly solar production is uneven — and that's normal. A system that covers 90% of your annual electricity needs might cover 120% in July and only 50% in December. Your annual offset percentage is calculated across a full year, not every single month.",
+          "tokens": 41
+        },
+        {
+          "chunk_index": 2,
+          "content": "If your system was activated in fall or winter, your first several months of bills will likely show a higher utility balance than you'll see long-term because your system is running during its lowest-production months. This is completely normal. Once spring and summer arrive, production climbs and you'll accumulate credits that offset winter usage.",
+          "tokens": 50
+        },
+        {
+          "chunk_index": 3,
+          "content": "Give it a full year before drawing conclusions about your system's performance. Net metering credits carry forward — summer surplus helps offset winter shortfalls. Your goal is significant annual savings, not a zero bill every month.",
+          "tokens": 32
+        }
+      ],
+      "related_article_ids": ["understanding-net-metering", "production-low", "winter-solar"],
+      "is_published": true,
+      "created_at": "2026-02-23T00:00:00Z",
+      "updated_at": "2026-02-23T00:00:00Z"
+    }
+  ]
+}{
+  "articles": [
+    {
+      "id": "warranty-coverage",
+      "slug": "whats-covered-under-warranty",
+      "category_id": "warranty-service",
+      "title": "What's Covered Under Warranty?",
+      "tags": ["warranty", "coverage", "workmanship", "equipment", "repairs"],
+      "visibility": "customer",
+      "question_aliases": [
+        "What does my solar warranty cover?",
+        "How long is my solar warranty?",
+        "What's covered if something breaks?",
+        "Do I have to pay for repairs?"
+      ],
+      "content_chunks": [
+        {
+          "chunk_index": 0,
+          "content": "Your solar system is backed by multiple layers of warranty coverage. Venture Home provides a 10-year workmanship warranty on every installation, covering the quality of our installation work including all roof penetrations. If you experience a roof leak or structural issue attributable to our installation, Venture Home will address it at no cost.",
+          "tokens": 44
+        },
+        {
+          "chunk_index": 1,
+          "content": "Equipment warranties for customer-owned systems: Solar panels carry a 25-year product warranty. Enphase microinverters carry a 25-year warranty. The Enphase IQ Gateway has a 5-year warranty. Tesla Powerwall has a 10-year warranty that includes labor. Tesla solar inverter has a 12.5-year warranty with labor covered.",
+          "tokens": 45
+        },
+        {
+          "chunk_index": 2,
+          "content": "For lease and PPA customers (TPO): Your finance provider owns the equipment and handles all maintenance, repairs, monitoring, and insurance for the full term of your agreement — typically 25 years. You should never pay out of pocket for a system repair or equipment failure.",
+          "tokens": 38
+        }
+      ],
+      "related_article_ids": ["system-damaged", "equipment-stops-working", "roof-leak", "contact-support"],
+      "is_published": true,
+      "created_at": "2026-02-23T00:00:00Z",
+      "updated_at": "2026-02-23T00:00:00Z"
+    },
+    {
+      "id": "system-damaged",
+      "slug": "what-if-my-system-is-damaged",
+      "category_id": "warranty-service",
+      "title": "What If My System Is Damaged?",
+      "tags": ["damage", "storm", "hail", "weather", "insurance", "repair"],
+      "visibility": "customer",
+      "question_aliases": [
+        "What if a tree falls on my solar panels?",
+        "Does insurance cover solar damage?",
+        "What if hail damages my panels?",
+        "My solar panels are damaged what do I do?"
+      ],
+      "content_chunks": [
+        {
+          "chunk_index": 0,
+          "content": "Solar systems are built to withstand the elements, but severe weather events — hail, fallen trees, ice storms, high winds — can occasionally cause damage. Do not attempt to inspect, move, or repair any part of your solar system after a weather event. Damaged solar panels or wiring can present electrical hazards even when the system appears off.",
+          "tokens": 48
+        },
+        {
+          "chunk_index": 1,
+          "content": "Contact Venture Home as soon as you notice or suspect damage. We will dispatch a technician to inspect the system, document the damage thoroughly, and provide you with a formal damage report. This documentation is exactly what your homeowner's insurance company will need to process a claim.",
+          "tokens": 39
+        },
+        {
+          "chunk_index": 2,
+          "content": "Storm damage to a solar system is typically covered under your homeowner's insurance policy. Use the documentation Venture Home provides to file your claim. For lease and PPA customers, your finance provider carries insurance on the equipment. Contact Venture Home and your finance provider immediately — do not arrange third-party repairs.",
+          "tokens": 48
+        }
+      ],
+      "related_article_ids": ["warranty-coverage", "roof-leak", "contact-support"],
+      "is_published": true,
+      "created_at": "2026-02-23T00:00:00Z",
+      "updated_at": "2026-02-23T00:00:00Z"
+    },
+    {
+      "id": "equipment-stops-working",
+      "slug": "what-happens-if-equipment-stops-working",
+      "category_id": "warranty-service",
+      "title": "What Happens If a Panel, Inverter, or Battery Stops Working?",
+      "tags": ["equipment failure", "repair", "warranty", "panel", "inverter", "battery"],
+      "visibility": "customer",
+      "question_aliases": [
+        "My inverter stopped working",
+        "My battery isn't charging",
+        "A panel isn't producing",
+        "What if my solar equipment breaks?"
+      ],
+      "content_chunks": [
+        {
+          "chunk_index": 0,
+          "content": "Equipment issues are rare, but they do happen. Contact Venture Home first — you don't need to figure out whether it's a product defect or installation issue, or call the manufacturer directly. We'll diagnose the problem, determine what's covered and by whom, and coordinate the repair.",
+          "tokens": 40
+        },
+        {
+          "chunk_index": 1,
+          "content": "If the repair falls under Venture Home's workmanship warranty, there is no cost to you. If the issue is an equipment defect covered by the manufacturer's warranty, the equipment itself is always replaced at no cost. Whether labor is covered depends on the manufacturer's warranty terms — some include labor, some cover parts only.",
+          "tokens": 49
+        },
+        {
+          "chunk_index": 2,
+          "content": "For lease and PPA customers: monitoring, maintenance, and equipment repairs are included in your agreement. Still start by contacting Venture Home — we can help triage and connect you with your provider's service team if needed.",
+          "tokens": 33
+        }
+      ],
+      "related_article_ids": ["warranty-coverage", "troubleshooting-overview", "contact-support"],
+      "is_published": true,
+      "created_at": "2026-02-23T00:00:00Z",
+      "updated_at": "2026-02-23T00:00:00Z"
+    },
+    {
+      "id": "contact-support",
+      "slug": "how-to-reach-us-contact-information",
+      "category_id": "warranty-service",
+      "title": "How to Reach Us: Make Sure You're Calling the Right Number",
+      "tags": ["contact", "support", "phone", "email", "customer success"],
+      "visibility": "customer",
+      "question_aliases": [
+        "What is Venture Home's phone number?",
+        "How do I contact Venture Home?",
+        "Customer service contact",
+        "How do I report an issue?"
+      ],
+      "content_chunks": [
+        {
+          "chunk_index": 0,
+          "content": "Our main customer support line is: 800-203-4158. This reaches our Customer Success team directly — the people who can look up your account, answer questions, schedule service visits, and help with anything post-installation.",
+          "tokens": 32
+        },
+        {
+          "chunk_index": 1,
+          "content": "Other ways to reach us: Venture Home App (fastest way — submit a message or service request directly), Webchat on our website for real-time support during business hours, or email through your account.",
+          "tokens": 30
+        },
+        {
+          "chunk_index": 2,
+          "content": "Our team works hard to respond quickly. If you haven't heard back within one business day, try a second channel — occasionally messages get missed, and we'd rather you reach out again than wait. The Venture Home app and main phone line are the most reliable ways to get a fast response.",
+          "tokens": 43
+        }
+      ],
+      "related_article_ids": ["warranty-coverage", "system-damaged", "equipment-stops-working"],
+      "is_published": true,
+      "created_at": "2026-02-23T00:00:00Z",
+      "updated_at": "2026-02-23T00:00:00Z"
+    },
+    {
+      "id": "srec-registration",
+      "slug": "how-to-complete-rec-registration",
+      "category_id": "billing-production",
+      "title": "How Do I Complete My REC Registration?",
+      "tags": ["REC", "SREC", "registration", "credits", "incentives"],
+      "visibility": "customer",
+      "question_aliases": [
+        "What is REC registration?",
+        "I got an email about RECs what do I do?",
+        "How do I register for solar credits?",
+        "What are SRECs?"
+      ],
+      "content_chunks": [
+        {
+          "chunk_index": 0,
+          "content": "Your solar system is eligible to generate Renewable Energy Credits (RECs) for the clean energy it produces. Venture Home handles registration on your behalf — you don't need to initiate anything. However, at a certain point we need a few things from you directly: identity verification, account setup, or a signature confirming participation. That's what the email is asking you to do.",
+          "tokens": 52
+        },
+        {
+          "chunk_index": 1,
+          "content": "The email will come from your state's registry or program administrator — not always from Venture Home directly. This is normal. Complete your portion promptly, as RECs accrue from the date of registration, not from installation. Delays mean credits you could have earned are not being earned.",
+          "tokens": 42
+        },
+        {
+          "chunk_index": 2,
+          "content": "If your system has been live and you haven't received a registration email, contact Customer Success and we'll look into the status. Registrations can often be backdated, so credits from before registration may still be claimable.",
+          "tokens": 34
+        }
+      ],
+      "related_article_ids": ["understanding-net-metering", "how-solar-changes-bill"],
+      "is_published": true,
+      "created_at": "2026-02-23T00:00:00Z",
+      "updated_at": "2026-02-23T00:00:00Z"
+    }
+  ]
+}
