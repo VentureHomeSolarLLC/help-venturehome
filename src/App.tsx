@@ -2,7 +2,7 @@ import { useState, useMemo } from 'react';
 import { Routes, Route, Link, useParams } from 'react-router-dom';
 import { SearchBar } from './components/SearchBar';
 import { ChatButton } from './components/ChatButton';
-import { Phone, Download, Wrench, FileText, BookOpen, Zap, Shield, Settings, Sun, Map } from 'lucide-react';
+import { Phone, Wrench, FileText, BookOpen, Zap, Shield, Settings, Sun, Map } from 'lucide-react';
 import { Logo } from './components/Logo';
 import type { Article, Category } from './types';
 import { getCustomerArticles, searchArticles, getArticlesByCategory, getArticleBySlug, getCategoryById, getRelatedArticles } from './data/kb';
@@ -20,24 +20,6 @@ const categoryIcons: Record<string, React.ReactNode> = {
   'solar-incentives': <Sun size={24} />,
   'state-utilities': <Map size={24} />,
 };
-
-// Top bar with quick actions
-function TopBar() {
-  return (
-    <div className="top-bar">
-      <div className="top-bar-content">
-        <a href="tel:800-203-4158" className="top-action">
-          <Phone size={16} />
-          <span>800-203-4158</span>
-        </a>
-        <a href="https://venturehome.com/app" className="top-action">
-          <Download size={16} />
-          <span>Download App</span>
-        </a>
-      </div>
-    </div>
-  );
-}
 
 // Home page - Palmetto-style
 function Home() {
@@ -189,14 +171,21 @@ function Article() {
 function App() {
   return (
     <div className="app">
-      <TopBar />
-      
       <header className="main-header">
         <div className="header-content">
           <Link to="/" className="logo-link">
-            <Logo />
+            <Logo size={32} />
             <span className="logo-help">Help Center</span>
           </Link>
+          <nav className="header-nav">
+            <a href="tel:800-203-4158" className="header-nav-link">
+              <Phone size={16} />
+              <span>800-203-4158</span>
+            </a>
+            <a href="https://venturehome.com/request-service" className="header-nav-link">
+              Request Service
+            </a>
+          </nav>
         </div>
       </header>
 

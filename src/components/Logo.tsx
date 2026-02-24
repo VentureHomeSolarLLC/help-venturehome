@@ -1,9 +1,13 @@
-export function Logo() {
+interface LogoProps {
+  size?: number;
+}
+
+export function Logo({ size = 32 }: LogoProps) {
   return (
     <img 
       src="/logo.png" 
       alt="Venture Home" 
-      height="32"
+      height={size}
       style={{ display: 'block' }}
     />
   );
