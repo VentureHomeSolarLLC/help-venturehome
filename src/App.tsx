@@ -147,7 +147,7 @@ function Article() {
         
         {article.content_chunks.map(chunk => (
           <div key={chunk.chunk_index} className="content-chunk">
-            {chunk.content.split('\n\n').map((paragraph, i) => (
+            {chunk.content.split('\n').filter(p => p.trim()).map((paragraph, i) => (
               <p key={i}>{paragraph}</p>
             ))}
           </div>
