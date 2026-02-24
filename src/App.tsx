@@ -9,16 +9,19 @@ import { getCustomerArticles, searchArticles, getArticlesByCategory, getArticleB
 import { data as kbData } from './data/kb';
 import './App.css';
 
+// Venture Home brand green color
+const VH_GREEN = '#7AEFB1';
+
 // Icon mapping for categories
 const categoryIcons: Record<string, React.ReactNode> = {
-  'finance-providers': <FileText size={24} />,
-  'monitoring': <Settings size={24} />,
-  'troubleshooting': <Wrench size={24} />,
-  'customer-journey': <BookOpen size={24} />,
-  'billing-production': <Zap size={24} />,
-  'warranty-service': <Shield size={24} />,
-  'solar-incentives': <Sun size={24} />,
-  'state-utilities': <Map size={24} />,
+  'finance-providers': <FileText size={24} color={VH_GREEN} />,
+  'monitoring': <Settings size={24} color={VH_GREEN} />,
+  'troubleshooting': <Wrench size={24} color={VH_GREEN} />,
+  'customer-journey': <BookOpen size={24} color={VH_GREEN} />,
+  'billing-production': <Zap size={24} color={VH_GREEN} />,
+  'warranty-service': <Shield size={24} color={VH_GREEN} />,
+  'solar-incentives': <Sun size={24} color={VH_GREEN} />,
+  'state-utilities': <Map size={24} color={VH_GREEN} />,
 };
 
 // Home page - Palmetto-style
