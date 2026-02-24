@@ -1,64 +1,92 @@
+import { useState, useMemo } from 'react';
 import { Routes, Route, Link, useParams } from 'react-router-dom';
 import { SearchBar } from './components/SearchBar';
 import { ChatButton } from './components/ChatButton';
-import { useState, useEffect, useMemo } from 'react';
+import { Phone, Download, Wrench, FileText, BookOpen, Zap, Shield, Settings } from 'lucide-react';
 import type { Article, Category } from './types';
-import { loadKBData, getCustomerArticles, searchArticles, getArticlesByCategory, getArticleBySlug, getCategoryById, getRelatedArticles } from './data/kb';
+import { getCustomerArticles, searchArticles, getArticlesByCategory, getArticleBySlug, getCategoryById, getRelatedArticles } from './data/kb';
+import { data as kbData } from './data/kb';
 import './App.css';
 
-// Home page
+// Icon mapping for categories
+const categoryIcons: Record<string, React.ReactNode> = {
+  'finance-providers': <FileText size={24} />,
+  'monitoring': <Settings size={24} />,
+  'troubleshooting': <Wrench size={24} />,
+  'customer-journey': <BookOpen size={24} />,
+  'billing-production': <Zap size={24} />,
+  'warranty-service': <Shield size={24} />,
+};
+
+// Top bar with quick actions
+function TopBar() {
+  return (
+    <div className="top-bar">
+      <div className="top-bar-content">
+        <a href="tel:800-203-4158" className="top-action">
+          <Phone size={16} />
+          <span>800-203-4158</span>
+        </a>
+        <a href="https://venturehome.com/app" className="top-action">
+          <Download size={16} />
+          <span>Download App</span>
+        </a>
+      </div>
+    </div>
+  );
+}
+
+// Home page - Palmetto-style
 function Home() {
   const [searchQuery, setSearchQuery] = useState('');
-  const [kbData, setKbData] = useState<{ categories: Category[]; articles: Article[] } | null>(null);
-
-  useEffect(() => {
-    loadKBData().then(data => {
-      setKbData({
-        categories: data.categories,
-        articles: getCustomerArticles(data.articles)
-      });
-    });
-  }, []);
+  const articles = useMemo(() => getCustomerArticles(kbData.articles), []);
 
   const filteredArticles = useMemo(() => {
-    if (!kbData || !searchQuery) return [];
-    return searchArticles(kbData.articles, searchQuery).slice(0, 5);
-  }, [kbData, searchQuery]);
-
-  if (!kbData) return <div className="loading">Loading...</div>;
+    if (!searchQuery) return [];
+    return searchArticles(articles, searchQuery).slice(0, 5);
+  }, [articles, searchQuery]);
 
   return (
     <div className="home-page">
       <div className="hero">
         <h1>How can we help?</h1>
-        <SearchBar value={searchQuery} onChange={setSearchQuery} />
+        <div className="search-wrapper-large">
+          <SearchBar 
+            value={searchQuery} 
+            onChange={setSearchQuery}
+            placeholder="Search for answers..."
+          />
+        </div>
         
         {searchQuery && (
-          <div className="search-results">
+          <div className="search-results-dropdown">
             {filteredArticles.length > 0 ? (
               filteredArticles.map(article => (
-                <Link key={article.id} to={`/article/${article.slug}`} className="result-card">
-                  <h3>{article.title}</h3>
-                  <p>{article.tags.join(', ')}</p>
+                <Link key={article.id} to={`/article/${article.slug}`} className="search-result-item">
+                  <span className="result-title">{article.title}</span>
+                  <span className="result-category">{getCategoryById(kbData.categories, article.category_id)?.name}</span>
                 </Link>
               ))
             ) : (
-              <p className="no-results">No results found. Try asking in the chat.</p>
+              <div className="no-results">No results found. Try asking in the chat.</div>
             )}
           </div>
         )}
       </div>
 
-      <div className="categories-grid">
-        <h2>Browse by category</h2>
-        <div className="grid">
+      <div className="collections-section">
+        <div className="collections-grid">
           {kbData.categories.map(category => {
-            const count = getArticlesByCategory(kbData.articles, category.id).length;
+            const count = getArticlesByCategory(articles, category.id).length;
             return (
-              <Link key={category.id} to={`/category/${category.id}`} className="category-card">
-                <h3>{category.name}</h3>
-                <p>{category.description}</p>
-                <span className="article-count">{count} articles</span>
+              <Link key={category.id} to={`/category/${category.id}`} className="collection-card">
+                <div className="collection-icon">
+                  {categoryIcons[category.id] || <BookOpen size={24} />}
+                </div>
+                <div className="collection-info">
+                  <h3>{category.name}</h3>
+                  <p className="article-count">{count} {count === 1 ? 'article' : 'articles'}</p>
+                </div>
               </Link>
             );
           })}
@@ -71,34 +99,29 @@ function Home() {
 // Category page
 function Category() {
   const { categoryId } = useParams<{ categoryId: string }>();
-  const [kbData, setKbData] = useState<{ categories: Category[]; articles: Article[] } | null>(null);
-
-  useEffect(() => {
-    loadKBData().then(data => {
-      setKbData({
-        categories: data.categories,
-        articles: getCustomerArticles(data.articles)
-      });
-    });
-  }, []);
-
-  if (!kbData) return <div className="loading">Loading...</div>;
-
+  const articles = useMemo(() => getCustomerArticles(kbData.articles), []);
+  
   const category = getCategoryById(kbData.categories, categoryId!);
-  const articles = getArticlesByCategory(kbData.articles, categoryId!);
+  const categoryArticles = getArticlesByCategory(articles, categoryId!);
 
   if (!category) return <div className="error">Category not found</div>;
 
   return (
     <div className="category-page">
+      <div className="breadcrumbs">
+        <Link to="/">Collections</Link>
+        <span> / </span>
+        <span>{category.name}</span>
+      </div>
+      
       <h1>{category.name}</h1>
       <p className="category-description">{category.description}</p>
       
       <div className="articles-list">
-        {articles.map(article => (
-          <Link key={article.id} to={`/article/${article.slug}`} className="article-card">
+        {categoryArticles.map(article => (
+          <Link key={article.id} to={`/article/${article.slug}`} className="article-row">
             <h3>{article.title}</h3>
-            <p>{article.tags.slice(0, 3).join(', ')}</p>
+            <span className="arrow">→</span>
           </Link>
         ))}
       </div>
@@ -109,31 +132,24 @@ function Category() {
 // Article page
 function Article() {
   const { slug } = useParams<{ slug: string }>();
-  const [kbData, setKbData] = useState<{ categories: Category[]; articles: Article[] } | null>(null);
-
-  useEffect(() => {
-    loadKBData().then(data => {
-      setKbData({
-        categories: data.categories,
-        articles: getCustomerArticles(data.articles)
-      });
-    });
-  }, []);
-
-  if (!kbData) return <div className="loading">Loading...</div>;
-
-  const article = getArticleBySlug(kbData.articles, slug!);
+  const articles = useMemo(() => getCustomerArticles(kbData.articles), []);
+  
+  const article = getArticleBySlug(articles, slug!);
   if (!article) return <div className="error">Article not found</div>;
 
   const category = getCategoryById(kbData.categories, article.category_id);
-  const relatedArticles = getRelatedArticles(kbData.articles, article.related_article_ids);
+  const relatedArticles = getRelatedArticles(articles, article.related_article_ids).slice(0, 3);
 
   return (
     <div className="article-page">
       <div className="breadcrumbs">
-        <Link to="/">Home</Link>
-        <span> / </span>
-        {category && <Link to={`/category/${category.id}`}>{category.name}</Link>}
+        <Link to="/">Collections</Link>
+        {category && (
+          <>
+            <span> / </span>
+            <Link to={`/category/${category.id}`}>{category.name}</Link>
+          </>
+        )}
         <span> / </span>
         <span>{article.title}</span>
       </div>
@@ -141,12 +157,6 @@ function Article() {
       <article className="article-content">
         <h1>{article.title}</h1>
         
-        <div className="tags">
-          {article.tags.map(tag => (
-            <span key={tag} className="tag">{tag}</span>
-          ))}
-        </div>
-
         {article.content_chunks.map(chunk => (
           <div key={chunk.chunk_index} className="content-chunk">
             {chunk.content.split('\n\n').map((paragraph, i) => (
@@ -159,13 +169,13 @@ function Article() {
       {relatedArticles.length > 0 && (
         <aside className="related-articles">
           <h3>Related articles</h3>
-          <ul>
+          <div className="related-list">
             {relatedArticles.map(related => (
-              <li key={related.id}>
-                <Link to={`/article/${related.slug}`}>{related.title}</Link>
-              </li>
+              <Link key={related.id} to={`/article/${related.slug}`} className="related-card">
+                {related.title}
+              </Link>
             ))}
-          </ul>
+          </div>
         </aside>
       )}
     </div>
@@ -176,35 +186,31 @@ function Article() {
 function App() {
   return (
     <div className="app">
-      <header className="header">
+      <TopBar />
+      
+      <header className="main-header">
         <div className="header-content">
           <Link to="/" className="logo">
             <span className="logo-vh">Venture Home</span>
             <span className="logo-help">Help Center</span>
           </Link>
-          <nav className="nav">
-            <a href="https://venturehome.com" target="_blank" rel="noopener">Back to site</a>
-          </nav>
         </div>
       </header>
 
-      <div className="main-container">
-        <aside className="sidebar">
-          <nav className="sidebar-nav">
-            <Link to="/" className="nav-link">All articles</Link>
-            <hr />
-            {/* Categories loaded dynamically */}
-          </nav>
-        </aside>
+      <main className="main-content">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/category/:categoryId" element={<Category />} />
+          <Route path="/article/:slug" element={<Article />} />
+        </Routes>
+      </main>
 
-        <main className="content">
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/category/:categoryId" element={<Category />} />
-            <Route path="/article/:slug" element={<Article />} />
-          </Routes>
-        </main>
-      </div>
+      <footer className="main-footer">
+        <div className="footer-content">
+          <p>© 2026 Venture Home Solar, LLC. All rights reserved.</p>
+          <a href="https://venturehome.com">Back to venturehome.com</a>
+        </div>
+      </footer>
 
       <ChatButton />
     </div>
