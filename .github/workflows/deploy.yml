@@ -1,0 +1,44 @@
+name: Deploy to GCP
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+          cache: 'npm'
+      
+      - name: Install dependencies
+        run: npm ci
+      
+      - name: Build
+        run: npm run build
+      
+      - name: Deploy to GCP
+        uses: appleboy/scp-action@master
+        with:
+          host: 34.139.8.36
+          username: alex
+          key: ${{ secrets.GCP_SSH_KEY }}
+          source: "dist/"
+          target: "/opt/help-venturehome/"
+          strip_components: 1
+      
+      - name: Restart nginx
+        uses: appleboy/ssh-action@master
+        with:
+          host: 34.139.8.36
+          username: alex
+          key: ${{ secrets.GCP_SSH_KEY }}
+          script: |
+            sudo systemctl reload nginx
+            echo "Deployment complete!"
