@@ -12,16 +12,16 @@ import './App.css';
 // Venture Home brand green color
 const VH_GREEN = '#7AEFB1';
 
-// Icon mapping for categories
+// Icon mapping for categories - filled and 33% larger (32px)
 const categoryIcons: Record<string, React.ReactNode> = {
-  'finance-providers': <FileText size={24} color={VH_GREEN} />,
-  'monitoring': <Settings size={24} color={VH_GREEN} />,
-  'troubleshooting': <Wrench size={24} color={VH_GREEN} />,
-  'customer-journey': <BookOpen size={24} color={VH_GREEN} />,
-  'billing-production': <Zap size={24} color={VH_GREEN} />,
-  'warranty-service': <Shield size={24} color={VH_GREEN} />,
-  'solar-incentives': <Sun size={24} color={VH_GREEN} />,
-  'state-utilities': <Map size={24} color={VH_GREEN} />,
+  'finance-providers': <FileText size={32} color={VH_GREEN} fill={VH_GREEN} fillOpacity={0.2} strokeWidth={1.5} />,
+  'monitoring': <Settings size={32} color={VH_GREEN} fill={VH_GREEN} fillOpacity={0.2} strokeWidth={1.5} />,
+  'troubleshooting': <Wrench size={32} color={VH_GREEN} fill={VH_GREEN} fillOpacity={0.2} strokeWidth={1.5} />,
+  'customer-journey': <BookOpen size={32} color={VH_GREEN} fill={VH_GREEN} fillOpacity={0.2} strokeWidth={1.5} />,
+  'billing-production': <Zap size={32} color={VH_GREEN} fill={VH_GREEN} fillOpacity={0.2} strokeWidth={1.5} />,
+  'warranty-service': <Shield size={32} color={VH_GREEN} fill={VH_GREEN} fillOpacity={0.2} strokeWidth={1.5} />,
+  'solar-incentives': <Sun size={32} color={VH_GREEN} fill={VH_GREEN} fillOpacity={0.2} strokeWidth={1.5} />,
+  'state-utilities': <Map size={32} color={VH_GREEN} fill={VH_GREEN} fillOpacity={0.2} strokeWidth={1.5} />,
 };
 
 // Home page - Palmetto-style
