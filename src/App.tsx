@@ -177,9 +177,9 @@ function App() {
       <header className="main-header">
         <div className="header-content">
           <Link to="/" className="logo-link">
-            <Logo size={32} />
-            <span className="logo-help">Help Center</span>
+            <Logo size={22} />
           </Link>
+          <span className="logo-help">Help Center</span>
           <nav className="header-nav">
             <a href="tel:800-203-4158" className="header-nav-link">
               <Phone size={16} />

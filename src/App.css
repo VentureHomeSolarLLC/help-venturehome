@@ -31,28 +31,31 @@ html, body {
   max-width: var(--max-width);
   margin: 0 auto;
   padding: 1rem 1.5rem;
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
   align-items: center;
+  gap: 1rem;
 }
 
 .logo-link {
   text-decoration: none;
   display: flex;
   align-items: center;
-  gap: 0.75rem;
+  justify-self: start;
 }
 
 .logo-help {
   font-size: 1.25rem;
   font-weight: 400;
   color: var(--text-secondary);
+  justify-self: center;
 }
 
 .header-nav {
   display: flex;
   align-items: center;
   gap: 2rem;
+  justify-self: end;
 }
 
 .header-nav-link {
