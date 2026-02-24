@@ -30,7 +30,7 @@ jobs:
           username: alex
           key: ${{ secrets.SSH_DEPLOY_KEY }}
           source: "dist/"
-          target: "/opt/help-venturehome/"
+          target: "/opt/help-venturehome/dist/"
           strip_components: 1
       
       - name: Restart nginx
