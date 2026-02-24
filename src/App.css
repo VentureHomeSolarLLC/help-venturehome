@@ -28,7 +28,7 @@
   --radius-md: 10px;
   --radius-lg: 16px;
   
-  --max-width: 900px;
+  --max-width: 1400px;
 }
 
 * {
@@ -94,24 +94,18 @@ body {
   padding: 1.25rem 1.5rem;
 }
 
-.logo {
+.logo-link {
   text-decoration: none;
   display: flex;
-  align-items: baseline;
-  gap: 0.5rem;
-}
-
-.logo-vh {
-  font-size: 1.35rem;
-  font-weight: 700;
-  color: var(--charcoal);
-  letter-spacing: -0.02em;
+  align-items: center;
+  gap: 0.75rem;
 }
 
 .logo-help {
-  font-size: 1.35rem;
+  font-size: 1.25rem;
   font-weight: 400;
   color: var(--text-secondary);
+  margin-left: 0.5rem;
 }
 
 /* Main Content */
@@ -239,20 +233,34 @@ body {
 
 .collections-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-  gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+@media (max-width: 1200px) {
+  .collections-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .collections-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 .collection-card {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
   gap: 1rem;
   background: var(--white);
-  padding: 1.5rem;
+  padding: 2rem;
   border-radius: var(--radius-md);
   text-decoration: none;
   border: 1px solid var(--border-color);
   transition: border-color 0.2s, box-shadow 0.2s, transform 0.2s;
+  min-height: 200px;
 }
 
 .collection-card:hover {
@@ -262,8 +270,8 @@ body {
 }
 
 .collection-icon {
-  width: 48px;
-  height: 48px;
+  width: 56px;
+  height: 56px;
   background: var(--off-white);
   border-radius: var(--radius-md);
   display: flex;
@@ -274,10 +282,10 @@ body {
 }
 
 .collection-info h3 {
-  font-size: 1rem;
+  font-size: 1.15rem;
   font-weight: 600;
   color: var(--charcoal);
-  margin-bottom: 0.25rem;
+  margin-bottom: 0.5rem;
 }
 
 .article-count {

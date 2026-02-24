@@ -3,6 +3,7 @@ import { Routes, Route, Link, useParams } from 'react-router-dom';
 import { SearchBar } from './components/SearchBar';
 import { ChatButton } from './components/ChatButton';
 import { Phone, Download, Wrench, FileText, BookOpen, Zap, Shield, Settings } from 'lucide-react';
+import { Logo } from './components/Logo';
 import type { Article, Category } from './types';
 import { getCustomerArticles, searchArticles, getArticlesByCategory, getArticleBySlug, getCategoryById, getRelatedArticles } from './data/kb';
 import { data as kbData } from './data/kb';
@@ -190,8 +191,8 @@ function App() {
       
       <header className="main-header">
         <div className="header-content">
-          <Link to="/" className="logo">
-            <span className="logo-vh">Venture Home</span>
+          <Link to="/" className="logo-link">
+            <Logo />
             <span className="logo-help">Help Center</span>
           </Link>
         </div>
