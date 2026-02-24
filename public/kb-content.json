@@ -2,7 +2,7 @@
   "metadata": {
     "version": "1.0",
     "created": "2026-02-23",
-    "total_articles": 42,
+    "total_articles": 28,
     "total_categories": 6,
     "content_source": "Helios KB Google Doc",
     "processing_notes": "Chunked for AI retrieval, question aliases extracted, cross-links identified"
@@ -51,7 +51,15 @@
       "slug": "finance-provider-overview",
       "category_id": "finance-providers",
       "title": "Your Finance Provider: Billing, Contacts, and What to Do if You're Selling or Refinancing",
-      "tags": ["finance", "billing", "refinancing", "home sale", "loan", "lease", "ppa"],
+      "tags": [
+        "finance",
+        "billing",
+        "refinancing",
+        "home sale",
+        "loan",
+        "lease",
+        "ppa"
+      ],
       "visibility": "customer",
       "question_aliases": [
         "Who is my finance provider?",
@@ -72,7 +80,14 @@
           "tokens": 48
         }
       ],
-      "related_article_ids": ["sungage", "mosaic", "dividend", "service-finance", "sunstrong", "selling-home-solar"],
+      "related_article_ids": [
+        "sungage",
+        "mosaic",
+        "dividend",
+        "service-finance",
+        "sunstrong",
+        "selling-home-solar"
+      ],
       "is_published": true,
       "created_at": "2026-02-23T00:00:00Z",
       "updated_at": "2026-02-23T00:00:00Z"
@@ -82,7 +97,14 @@
       "slug": "sungage-financial",
       "category_id": "finance-providers",
       "title": "Sungage Financial",
-      "tags": ["sungage", "loan", "finance", "billing", "home sale", "refinancing"],
+      "tags": [
+        "sungage",
+        "loan",
+        "finance",
+        "billing",
+        "home sale",
+        "refinancing"
+      ],
       "visibility": "customer",
       "question_aliases": [
         "What is Sungage's phone number?",
@@ -102,7 +124,10 @@
           "tokens": 28
         }
       ],
-      "related_article_ids": ["finance-overview", "selling-home-solar"],
+      "related_article_ids": [
+        "finance-overview",
+        "selling-home-solar"
+      ],
       "is_published": true,
       "created_at": "2026-02-23T00:00:00Z",
       "updated_at": "2026-02-23T00:00:00Z"
@@ -112,7 +137,15 @@
       "slug": "mosaic-solar-servicing",
       "category_id": "finance-providers",
       "title": "Mosaic / Solar Servicing LLC",
-      "tags": ["mosaic", "solar-servicing", "loan", "finance", "bankruptcy", "billing", "home sale"],
+      "tags": [
+        "mosaic",
+        "solar-servicing",
+        "loan",
+        "finance",
+        "bankruptcy",
+        "billing",
+        "home sale"
+      ],
       "visibility": "customer",
       "question_aliases": [
         "Did Mosaic go bankrupt?",
@@ -137,7 +170,10 @@
           "tokens": 19
         }
       ],
-      "related_article_ids": ["finance-overview", "selling-home-solar"],
+      "related_article_ids": [
+        "finance-overview",
+        "selling-home-solar"
+      ],
       "is_published": true,
       "created_at": "2026-02-23T00:00:00Z",
       "updated_at": "2026-02-23T00:00:00Z"
@@ -147,7 +183,15 @@
       "slug": "dividend-finance",
       "category_id": "finance-providers",
       "title": "Dividend Finance",
-      "tags": ["dividend", "loan", "finance", "billing", "home sale", "refinancing", "transfer"],
+      "tags": [
+        "dividend",
+        "loan",
+        "finance",
+        "billing",
+        "home sale",
+        "refinancing",
+        "transfer"
+      ],
       "visibility": "customer",
       "question_aliases": [
         "What is Dividend's phone number?",
@@ -172,7 +216,10 @@
           "tokens": 24
         }
       ],
-      "related_article_ids": ["finance-overview", "selling-home-solar"],
+      "related_article_ids": [
+        "finance-overview",
+        "selling-home-solar"
+      ],
       "is_published": true,
       "created_at": "2026-02-23T00:00:00Z",
       "updated_at": "2026-02-23T00:00:00Z"
@@ -182,7 +229,13 @@
       "slug": "service-finance-company",
       "category_id": "finance-providers",
       "title": "Service Finance Company",
-      "tags": ["service-finance", "loan", "finance", "billing", "home sale"],
+      "tags": [
+        "service-finance",
+        "loan",
+        "finance",
+        "billing",
+        "home sale"
+      ],
       "visibility": "customer",
       "question_aliases": [
         "Service Finance contact",
@@ -200,7 +253,10 @@
           "tokens": 28
         }
       ],
-      "related_article_ids": ["finance-overview", "selling-home-solar"],
+      "related_article_ids": [
+        "finance-overview",
+        "selling-home-solar"
+      ],
       "is_published": true,
       "created_at": "2026-02-23T00:00:00Z",
       "updated_at": "2026-02-23T00:00:00Z"
@@ -210,9 +266,18 @@
       "slug": "credit-human",
       "category_id": "finance-providers",
       "title": "Credit Human",
-      "tags": ["credit-human", "loan", "finance", "billing", "home sale"],
+      "tags": [
+        "credit-human",
+        "loan",
+        "finance",
+        "billing",
+        "home sale"
+      ],
       "visibility": "customer",
-      "question_aliases": ["Credit Human contact", "Credit Human phone number"],
+      "question_aliases": [
+        "Credit Human contact",
+        "Credit Human phone number"
+      ],
       "content_chunks": [
         {
           "chunk_index": 0,
@@ -225,7 +290,9 @@
           "tokens": 12
         }
       ],
-      "related_article_ids": ["finance-overview"],
+      "related_article_ids": [
+        "finance-overview"
+      ],
       "is_published": true,
       "created_at": "2026-02-23T00:00:00Z",
       "updated_at": "2026-02-23T00:00:00Z"
@@ -235,9 +302,18 @@
       "slug": "flic-financial",
       "category_id": "finance-providers",
       "title": "Flic Financial",
-      "tags": ["flic", "loan", "finance", "billing", "home sale"],
+      "tags": [
+        "flic",
+        "loan",
+        "finance",
+        "billing",
+        "home sale"
+      ],
       "visibility": "customer",
-      "question_aliases": ["Flic Financial contact", "Flic Financial phone"],
+      "question_aliases": [
+        "Flic Financial contact",
+        "Flic Financial phone"
+      ],
       "content_chunks": [
         {
           "chunk_index": 0,
@@ -250,7 +326,9 @@
           "tokens": 12
         }
       ],
-      "related_article_ids": ["finance-overview"],
+      "related_article_ids": [
+        "finance-overview"
+      ],
       "is_published": true,
       "created_at": "2026-02-23T00:00:00Z",
       "updated_at": "2026-02-23T00:00:00Z"
@@ -260,9 +338,18 @@
       "slug": "participate-energy",
       "category_id": "finance-providers",
       "title": "Participate Energy",
-      "tags": ["participate", "loan", "finance", "billing", "home sale"],
+      "tags": [
+        "participate",
+        "loan",
+        "finance",
+        "billing",
+        "home sale"
+      ],
       "visibility": "customer",
-      "question_aliases": ["Participate Energy contact", "Participate Energy phone"],
+      "question_aliases": [
+        "Participate Energy contact",
+        "Participate Energy phone"
+      ],
       "content_chunks": [
         {
           "chunk_index": 0,
@@ -275,7 +362,9 @@
           "tokens": 12
         }
       ],
-      "related_article_ids": ["finance-overview"],
+      "related_article_ids": [
+        "finance-overview"
+      ],
       "is_published": true,
       "created_at": "2026-02-23T00:00:00Z",
       "updated_at": "2026-02-23T00:00:00Z"
@@ -285,7 +374,17 @@
       "slug": "sunstrong-management",
       "category_id": "finance-providers",
       "title": "SunStrong Management (SunPower, Sunnova, Posigen)",
-      "tags": ["sunstrong", "sunpower", "sunnova", "posigen", "lease", "ppa", "bankruptcy", "billing", "home sale"],
+      "tags": [
+        "sunstrong",
+        "sunpower",
+        "sunnova",
+        "posigen",
+        "lease",
+        "ppa",
+        "bankruptcy",
+        "billing",
+        "home sale"
+      ],
       "visibility": "customer",
       "question_aliases": [
         "SunPower went bankrupt what do I do?",
@@ -315,7 +414,11 @@
           "tokens": 36
         }
       ],
-      "related_article_ids": ["finance-overview", "selling-home-solar", "tpo-coverage"],
+      "related_article_ids": [
+        "finance-overview",
+        "selling-home-solar",
+        "tpo-coverage"
+      ],
       "is_published": true,
       "created_at": "2026-02-23T00:00:00Z",
       "updated_at": "2026-02-23T00:00:00Z"
@@ -325,7 +428,15 @@
       "slug": "palmetto-lightreach",
       "category_id": "finance-providers",
       "title": "Palmetto LightReach",
-      "tags": ["palmetto", "lightreach", "lease", "ppa", "billing", "home sale", "app"],
+      "tags": [
+        "palmetto",
+        "lightreach",
+        "lease",
+        "ppa",
+        "billing",
+        "home sale",
+        "app"
+      ],
       "visibility": "customer",
       "question_aliases": [
         "Palmetto LightReach contact",
@@ -349,7 +460,11 @@
           "tokens": 35
         }
       ],
-      "related_article_ids": ["finance-overview", "selling-home-solar", "tpo-coverage"],
+      "related_article_ids": [
+        "finance-overview",
+        "selling-home-solar",
+        "tpo-coverage"
+      ],
       "is_published": true,
       "created_at": "2026-02-23T00:00:00Z",
       "updated_at": "2026-02-23T00:00:00Z"
@@ -359,9 +474,18 @@
       "slug": "igs-energy",
       "category_id": "finance-providers",
       "title": "IGS Energy",
-      "tags": ["igs", "lease", "ppa", "billing", "home sale"],
+      "tags": [
+        "igs",
+        "lease",
+        "ppa",
+        "billing",
+        "home sale"
+      ],
       "visibility": "customer",
-      "question_aliases": ["IGS Energy contact", "IGS Energy phone number"],
+      "question_aliases": [
+        "IGS Energy contact",
+        "IGS Energy phone number"
+      ],
       "content_chunks": [
         {
           "chunk_index": 0,
@@ -379,7 +503,11 @@
           "tokens": 22
         }
       ],
-      "related_article_ids": ["finance-overview", "selling-home-solar", "tpo-coverage"],
+      "related_article_ids": [
+        "finance-overview",
+        "selling-home-solar",
+        "tpo-coverage"
+      ],
       "is_published": true,
       "created_at": "2026-02-23T00:00:00Z",
       "updated_at": "2026-02-23T00:00:00Z"
@@ -389,7 +517,14 @@
       "slug": "enfin-qcells",
       "category_id": "finance-providers",
       "title": "Enfin (by Qcells)",
-      "tags": ["enfin", "qcells", "lease", "ppa", "billing", "home sale"],
+      "tags": [
+        "enfin",
+        "qcells",
+        "lease",
+        "ppa",
+        "billing",
+        "home sale"
+      ],
       "visibility": "customer",
       "question_aliases": [
         "Enfin contact information",
@@ -413,20 +548,27 @@
           "tokens": 35
         }
       ],
-      "related_article_ids": ["finance-overview", "selling-home-solar", "tpo-coverage"],
+      "related_article_ids": [
+        "finance-overview",
+        "selling-home-solar",
+        "tpo-coverage"
+      ],
       "is_published": true,
       "created_at": "2026-02-23T00:00:00Z",
       "updated_at": "2026-02-23T00:00:00Z"
-    }
-  ]
-}{
-  "articles": [
+    },
     {
       "id": "monitoring-enphase",
       "slug": "monitoring-enphase-system",
       "category_id": "monitoring",
       "title": "Monitoring Your Enphase System",
-      "tags": ["enphase", "monitoring", "app", "production", "battery"],
+      "tags": [
+        "enphase",
+        "monitoring",
+        "app",
+        "production",
+        "battery"
+      ],
       "visibility": "customer",
       "question_aliases": [
         "How do I check my Enphase system?",
@@ -456,7 +598,11 @@
           "tokens": 32
         }
       ],
-      "related_article_ids": ["troubleshooting-enphase", "enphase-battery-settings", "production-low"],
+      "related_article_ids": [
+        "troubleshooting-enphase",
+        "enphase-battery-settings",
+        "production-low"
+      ],
       "is_published": true,
       "created_at": "2026-02-23T00:00:00Z",
       "updated_at": "2026-02-23T00:00:00Z"
@@ -466,7 +612,13 @@
       "slug": "monitoring-solaredge-system",
       "category_id": "monitoring",
       "title": "Monitoring Your SolarEdge System",
-      "tags": ["solaredge", "monitoring", "app", "production", "mySolarEdge"],
+      "tags": [
+        "solaredge",
+        "monitoring",
+        "app",
+        "production",
+        "mySolarEdge"
+      ],
       "visibility": "customer",
       "question_aliases": [
         "How do I check my SolarEdge system?",
@@ -491,7 +643,10 @@
           "tokens": 32
         }
       ],
-      "related_article_ids": ["troubleshooting-solaredge", "production-low"],
+      "related_article_ids": [
+        "troubleshooting-solaredge",
+        "production-low"
+      ],
       "is_published": true,
       "created_at": "2026-02-23T00:00:00Z",
       "updated_at": "2026-02-23T00:00:00Z"
@@ -501,7 +656,13 @@
       "slug": "monitoring-tesla-system",
       "category_id": "monitoring",
       "title": "Monitoring Your Tesla Solar System",
-      "tags": ["tesla", "monitoring", "app", "production", "powerwall"],
+      "tags": [
+        "tesla",
+        "monitoring",
+        "app",
+        "production",
+        "powerwall"
+      ],
       "visibility": "customer",
       "question_aliases": [
         "How do I check my Tesla solar system?",
@@ -531,7 +692,11 @@
           "tokens": 33
         }
       ],
-      "related_article_ids": ["troubleshooting-tesla", "tesla-powerwall-settings", "production-low"],
+      "related_article_ids": [
+        "troubleshooting-tesla",
+        "tesla-powerwall-settings",
+        "production-low"
+      ],
       "is_published": true,
       "created_at": "2026-02-23T00:00:00Z",
       "updated_at": "2026-02-23T00:00:00Z"
@@ -541,7 +706,13 @@
       "slug": "monitoring-sunpower-system",
       "category_id": "monitoring",
       "title": "Monitoring Your SunPower System",
-      "tags": ["sunpower", "monitoring", "app", "production", "sunstrong"],
+      "tags": [
+        "sunpower",
+        "monitoring",
+        "app",
+        "production",
+        "sunstrong"
+      ],
       "visibility": "customer",
       "question_aliases": [
         "Which app do I use for SunPower?",
@@ -566,20 +737,29 @@
           "tokens": 35
         }
       ],
-      "related_article_ids": ["monitoring-enphase", "sunstrong", "troubleshooting-sunpower", "production-low"],
+      "related_article_ids": [
+        "monitoring-enphase",
+        "sunstrong",
+        "troubleshooting-sunpower",
+        "production-low"
+      ],
       "is_published": true,
       "created_at": "2026-02-23T00:00:00Z",
       "updated_at": "2026-02-23T00:00:00Z"
-    }
-  ]
-}{
-  "articles": [
+    },
     {
       "id": "troubleshooting-overview",
       "slug": "system-troubleshooting-guide",
       "category_id": "troubleshooting",
       "title": "System Troubleshooting: Errors, Connectivity, and Breaker Resets",
-      "tags": ["troubleshooting", "errors", "connectivity", "breakers", "wifi", "offline"],
+      "tags": [
+        "troubleshooting",
+        "errors",
+        "connectivity",
+        "breakers",
+        "wifi",
+        "offline"
+      ],
       "visibility": "customer",
       "question_aliases": [
         "My app shows an error what do I do?",
@@ -620,7 +800,13 @@
           "tokens": 45
         }
       ],
-      "related_article_ids": ["monitoring-enphase", "monitoring-solaredge", "monitoring-tesla", "monitoring-sunpower", "contact-support"],
+      "related_article_ids": [
+        "monitoring-enphase",
+        "monitoring-solaredge",
+        "monitoring-tesla",
+        "monitoring-sunpower",
+        "contact-support"
+      ],
       "is_published": true,
       "created_at": "2026-02-23T00:00:00Z",
       "updated_at": "2026-02-23T00:00:00Z"
@@ -630,7 +816,13 @@
       "slug": "my-production-seems-low",
       "category_id": "troubleshooting",
       "title": "My Production Seems Low — What's Going On?",
-      "tags": ["production", "low", "bill", "seasonal", "troubleshooting"],
+      "tags": [
+        "production",
+        "low",
+        "bill",
+        "seasonal",
+        "troubleshooting"
+      ],
       "visibility": "customer",
       "question_aliases": [
         "Why is my bill higher than expected?",
@@ -660,20 +852,28 @@
           "tokens": 35
         }
       ],
-      "related_article_ids": ["troubleshooting-overview", "understanding-net-metering", "how-solar-changes-bill", "winter-solar"],
+      "related_article_ids": [
+        "troubleshooting-overview",
+        "understanding-net-metering",
+        "how-solar-changes-bill",
+        "winter-solar"
+      ],
       "is_published": true,
       "created_at": "2026-02-23T00:00:00Z",
       "updated_at": "2026-02-23T00:00:00Z"
-    }
-  ]
-}{
-  "articles": [
+    },
     {
       "id": "pre-install-process",
       "slug": "what-happens-between-signing-and-installation",
       "category_id": "customer-journey",
       "title": "What Happens Between Signing and Installation?",
-      "tags": ["pre-install", "timeline", "permitting", "design", "HOA"],
+      "tags": [
+        "pre-install",
+        "timeline",
+        "permitting",
+        "design",
+        "HOA"
+      ],
       "visibility": "customer",
       "question_aliases": [
         "How long until my solar is installed?",
@@ -703,7 +903,10 @@
           "tokens": 41
         }
       ],
-      "related_article_ids": ["installation-day", "awaiting-pto"],
+      "related_article_ids": [
+        "installation-day",
+        "awaiting-pto"
+      ],
       "is_published": true,
       "created_at": "2026-02-23T00:00:00Z",
       "updated_at": "2026-02-23T00:00:00Z"
@@ -713,7 +916,12 @@
       "slug": "what-to-expect-on-installation-day",
       "category_id": "customer-journey",
       "title": "What to Expect on Installation Day",
-      "tags": ["installation", "install day", "what to expect", "preparation"],
+      "tags": [
+        "installation",
+        "install day",
+        "what to expect",
+        "preparation"
+      ],
       "visibility": "customer",
       "question_aliases": [
         "What happens on installation day?",
@@ -743,7 +951,11 @@
           "tokens": 41
         }
       ],
-      "related_article_ids": ["pre-install-process", "awaiting-pto", "what-is-pto"],
+      "related_article_ids": [
+        "pre-install-process",
+        "awaiting-pto",
+        "what-is-pto"
+      ],
       "is_published": true,
       "created_at": "2026-02-23T00:00:00Z",
       "updated_at": "2026-02-23T00:00:00Z"
@@ -753,7 +965,13 @@
       "slug": "permission-to-operate-pto-explained",
       "category_id": "customer-journey",
       "title": "Permission to Operate (PTO) — Why Your System Isn't On Yet",
-      "tags": ["PTO", "permission to operate", "inspection", "utility", "activation"],
+      "tags": [
+        "PTO",
+        "permission to operate",
+        "inspection",
+        "utility",
+        "activation"
+      ],
       "visibility": "customer",
       "question_aliases": [
         "What is PTO?",
@@ -789,7 +1007,11 @@
           "tokens": 44
         }
       ],
-      "related_article_ids": ["installation-day", "awaiting-pto", "system-live"],
+      "related_article_ids": [
+        "installation-day",
+        "awaiting-pto",
+        "system-live"
+      ],
       "is_published": true,
       "created_at": "2026-02-23T00:00:00Z",
       "updated_at": "2026-02-23T00:00:00Z"
@@ -799,7 +1021,13 @@
       "slug": "understanding-net-metering-utility-bill",
       "category_id": "billing-production",
       "title": "Understanding Net Metering and Your Utility Bill",
-      "tags": ["net metering", "utility bill", "credits", "how it works", "billing"],
+      "tags": [
+        "net metering",
+        "utility bill",
+        "credits",
+        "how it works",
+        "billing"
+      ],
       "visibility": "customer",
       "question_aliases": [
         "How does net metering work?",
@@ -829,7 +1057,11 @@
           "tokens": 39
         }
       ],
-      "related_article_ids": ["how-solar-changes-bill", "production-low", "net-metering-credits-missing"],
+      "related_article_ids": [
+        "how-solar-changes-bill",
+        "production-low",
+        "net-metering-credits-missing"
+      ],
       "is_published": true,
       "created_at": "2026-02-23T00:00:00Z",
       "updated_at": "2026-02-23T00:00:00Z"
@@ -839,7 +1071,13 @@
       "slug": "how-will-solar-change-my-utility-bill",
       "category_id": "billing-production",
       "title": "How Will Solar Change My Utility Bill?",
-      "tags": ["utility bill", "savings", "seasonal", "winter", "summer"],
+      "tags": [
+        "utility bill",
+        "savings",
+        "seasonal",
+        "winter",
+        "summer"
+      ],
       "visibility": "customer",
       "question_aliases": [
         "What will my electric bill be with solar?",
@@ -869,20 +1107,27 @@
           "tokens": 32
         }
       ],
-      "related_article_ids": ["understanding-net-metering", "production-low", "winter-solar"],
+      "related_article_ids": [
+        "understanding-net-metering",
+        "production-low",
+        "winter-solar"
+      ],
       "is_published": true,
       "created_at": "2026-02-23T00:00:00Z",
       "updated_at": "2026-02-23T00:00:00Z"
-    }
-  ]
-}{
-  "articles": [
+    },
     {
       "id": "warranty-coverage",
       "slug": "whats-covered-under-warranty",
       "category_id": "warranty-service",
       "title": "What's Covered Under Warranty?",
-      "tags": ["warranty", "coverage", "workmanship", "equipment", "repairs"],
+      "tags": [
+        "warranty",
+        "coverage",
+        "workmanship",
+        "equipment",
+        "repairs"
+      ],
       "visibility": "customer",
       "question_aliases": [
         "What does my solar warranty cover?",
@@ -907,7 +1152,12 @@
           "tokens": 38
         }
       ],
-      "related_article_ids": ["system-damaged", "equipment-stops-working", "roof-leak", "contact-support"],
+      "related_article_ids": [
+        "system-damaged",
+        "equipment-stops-working",
+        "roof-leak",
+        "contact-support"
+      ],
       "is_published": true,
       "created_at": "2026-02-23T00:00:00Z",
       "updated_at": "2026-02-23T00:00:00Z"
@@ -917,7 +1167,14 @@
       "slug": "what-if-my-system-is-damaged",
       "category_id": "warranty-service",
       "title": "What If My System Is Damaged?",
-      "tags": ["damage", "storm", "hail", "weather", "insurance", "repair"],
+      "tags": [
+        "damage",
+        "storm",
+        "hail",
+        "weather",
+        "insurance",
+        "repair"
+      ],
       "visibility": "customer",
       "question_aliases": [
         "What if a tree falls on my solar panels?",
@@ -942,7 +1199,11 @@
           "tokens": 48
         }
       ],
-      "related_article_ids": ["warranty-coverage", "roof-leak", "contact-support"],
+      "related_article_ids": [
+        "warranty-coverage",
+        "roof-leak",
+        "contact-support"
+      ],
       "is_published": true,
       "created_at": "2026-02-23T00:00:00Z",
       "updated_at": "2026-02-23T00:00:00Z"
@@ -952,7 +1213,14 @@
       "slug": "what-happens-if-equipment-stops-working",
       "category_id": "warranty-service",
       "title": "What Happens If a Panel, Inverter, or Battery Stops Working?",
-      "tags": ["equipment failure", "repair", "warranty", "panel", "inverter", "battery"],
+      "tags": [
+        "equipment failure",
+        "repair",
+        "warranty",
+        "panel",
+        "inverter",
+        "battery"
+      ],
       "visibility": "customer",
       "question_aliases": [
         "My inverter stopped working",
@@ -977,7 +1245,11 @@
           "tokens": 33
         }
       ],
-      "related_article_ids": ["warranty-coverage", "troubleshooting-overview", "contact-support"],
+      "related_article_ids": [
+        "warranty-coverage",
+        "troubleshooting-overview",
+        "contact-support"
+      ],
       "is_published": true,
       "created_at": "2026-02-23T00:00:00Z",
       "updated_at": "2026-02-23T00:00:00Z"
@@ -987,7 +1259,13 @@
       "slug": "how-to-reach-us-contact-information",
       "category_id": "warranty-service",
       "title": "How to Reach Us: Make Sure You're Calling the Right Number",
-      "tags": ["contact", "support", "phone", "email", "customer success"],
+      "tags": [
+        "contact",
+        "support",
+        "phone",
+        "email",
+        "customer success"
+      ],
       "visibility": "customer",
       "question_aliases": [
         "What is Venture Home's phone number?",
@@ -1012,7 +1290,11 @@
           "tokens": 43
         }
       ],
-      "related_article_ids": ["warranty-coverage", "system-damaged", "equipment-stops-working"],
+      "related_article_ids": [
+        "warranty-coverage",
+        "system-damaged",
+        "equipment-stops-working"
+      ],
       "is_published": true,
       "created_at": "2026-02-23T00:00:00Z",
       "updated_at": "2026-02-23T00:00:00Z"
@@ -1022,7 +1304,13 @@
       "slug": "how-to-complete-rec-registration",
       "category_id": "billing-production",
       "title": "How Do I Complete My REC Registration?",
-      "tags": ["REC", "SREC", "registration", "credits", "incentives"],
+      "tags": [
+        "REC",
+        "SREC",
+        "registration",
+        "credits",
+        "incentives"
+      ],
       "visibility": "customer",
       "question_aliases": [
         "What is REC registration?",
@@ -1047,7 +1335,10 @@
           "tokens": 34
         }
       ],
-      "related_article_ids": ["understanding-net-metering", "how-solar-changes-bill"],
+      "related_article_ids": [
+        "understanding-net-metering",
+        "how-solar-changes-bill"
+      ],
       "is_published": true,
       "created_at": "2026-02-23T00:00:00Z",
       "updated_at": "2026-02-23T00:00:00Z"

@@ -1,66 +1,9 @@
 import type { KBData, Article, Category } from '../types';
+import kbContent from '../../public/kb-content.json';
 
-// Load KB content from helios-kb repo
-// In production, this would be fetched from the JSON file
-const kbContent: KBData = {
-  "metadata": {
-    "version": "1.0",
-    "created": "2026-02-23",
-    "total_articles": 30,
-    "total_categories": 6
-  },
-  "categories": [
-    {
-      "id": "finance-providers",
-      "name": "Finance Providers",
-      "description": "Billing, contacts, and transfer information",
-      "sort_order": 1
-    },
-    {
-      "id": "monitoring",
-      "name": "System Monitoring",
-      "description": "How to monitor your solar system",
-      "sort_order": 2
-    },
-    {
-      "id": "troubleshooting",
-      "name": "Troubleshooting",
-      "description": "Common issues and solutions",
-      "sort_order": 3
-    },
-    {
-      "id": "customer-journey",
-      "name": "Your Solar Journey",
-      "description": "From signing to going live",
-      "sort_order": 4
-    },
-    {
-      "id": "billing-production",
-      "name": "Billing & Production",
-      "description": "Understanding your bill and system performance",
-      "sort_order": 5
-    },
-    {
-      "id": "warranty-service",
-      "name": "Warranty & Service",
-      "description": "What's covered and how to get help",
-      "sort_order": 6
-    }
-  ],
-  "articles": []
-};
-
-// Fetch full content from JSON file
-export async function loadKBData(): Promise<KBData> {
-  try {
-    const response = await fetch('/kb-content.json');
-    if (!response.ok) throw new Error('Failed to load KB content');
-    return await response.json();
-  } catch (error) {
-    console.warn('Using fallback KB data:', error);
-    return kbContent;
-  }
-}
+// Use the imported JSON as the primary data source
+// This works in both dev and production since kb-content.json is in public/
+const data: KBData = kbContent as KBData;
 
 export function getCustomerArticles(articles: Article[]): Article[] {
   return articles.filter(a => a.visibility === 'customer' || a.visibility === 'both');
@@ -91,3 +34,10 @@ export function getCategoryById(categories: Category[], id: string): Category | 
 export function getRelatedArticles(articles: Article[], relatedIds: string[]): Article[] {
   return relatedIds.map(id => articles.find(a => a.id === id)).filter(Boolean) as Article[];
 }
+
+export function loadKBData(): Promise<KBData> {
+  // Return the imported data directly
+  return Promise.resolve(data);
+}
+
+export { data };
