@@ -28,7 +28,7 @@ jobs:
         with:
           host: 34.139.8.36
           username: alex
-          key: ${{ secrets.GCP_SSH_KEY }}
+          key: ${{ secrets.SSH_DEPLOY_KEY }}
           source: "dist/"
           target: "/opt/help-venturehome/"
           strip_components: 1
@@ -38,7 +38,7 @@ jobs:
         with:
           host: 34.139.8.36
           username: alex
-          key: ${{ secrets.GCP_SSH_KEY }}
+          key: ${{ secrets.SSH_DEPLOY_KEY }}
           script: |
             sudo systemctl reload nginx
             echo "Deployment complete!"
