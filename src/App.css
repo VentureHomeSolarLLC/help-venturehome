@@ -82,6 +82,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 /* Top Bar */
@@ -158,6 +159,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
+  max-width: 100vw;
 }
 
 .hero h1 {
@@ -268,11 +271,11 @@ body {
 
 /* Collections Section */
 .collections-section {
+  width: 100%;
   max-width: var(--max-width);
   margin: 0 auto;
   padding: 3rem 1.5rem;
   text-align: center;
-  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
