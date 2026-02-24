@@ -172,6 +172,8 @@ html, body {
   box-shadow: var(--shadow-lg);
   transition: transform 0.2s, box-shadow 0.2s;
   z-index: 1000;
+  width: auto;
+  max-width: fit-content;
 }
 
 .chat-button:hover {
