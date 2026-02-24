@@ -147,9 +147,30 @@ function Article() {
         
         {article.content_chunks.map(chunk => (
           <div key={chunk.chunk_index} className="content-chunk">
-            {chunk.content.split('\n').filter(p => p.trim()).map((paragraph, i) => (
-              <p key={i}>{paragraph}</p>
-            ))}
+            {chunk.content.split('\n').filter(p => p.trim()).map((paragraph, i) => {
+              const trimmed = paragraph.trim();
+              // Detect headers (short lines, often single words or key phrases)
+              if (trimmed.length < 50 && !trimmed.includes('.') && /^[A-Z]/.test(trimmed)) {
+                // Check if it's a major section header (all caps or very short)
+                if (trimmed === trimmed.toUpperCase() || trimmed.split(' ').length <= 3) {
+                  return <h3 key={i} className="article-section-header">{trimmed}</h3>;
+                }
+              }
+              // Check for table-like content (contains colons or key-value patterns)
+              if (trimmed.includes(':') && trimmed.split(':')[0].length < 40) {
+                const [key, ...valueParts] = trimmed.split(':');
+                const value = valueParts.join(':').trim();
+                if (value && key.length < 30) {
+                  return (
+                    <div key={i} className="key-value-row">
+                      <strong>{key.trim()}:</strong>
+                      <span>{value}</span>
+                    </div>
+                  );
+                }
+              }
+              return <p key={i}>{trimmed}</p>;
+            })}
           </div>
         ))}
       </article>
