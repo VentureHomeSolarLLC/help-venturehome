@@ -2,7 +2,7 @@ import { useState, useMemo } from 'react';
 import { Routes, Route, Link, useParams } from 'react-router-dom';
 import { SearchBar } from './components/SearchBar';
 import { ChatButton } from './components/ChatButton';
-import { Phone, Download, Wrench, FileText, BookOpen, Zap, Shield, Settings } from 'lucide-react';
+import { Phone, Download, Wrench, FileText, BookOpen, Zap, Shield, Settings, Sun, Map } from 'lucide-react';
 import { Logo } from './components/Logo';
 import type { Article, Category } from './types';
 import { getCustomerArticles, searchArticles, getArticlesByCategory, getArticleBySlug, getCategoryById, getRelatedArticles } from './data/kb';
@@ -17,6 +17,8 @@ const categoryIcons: Record<string, React.ReactNode> = {
   'customer-journey': <BookOpen size={24} />,
   'billing-production': <Zap size={24} />,
   'warranty-service': <Shield size={24} />,
+  'solar-incentives': <Sun size={24} />,
+  'state-utilities': <Map size={24} />,
 };
 
 // Top bar with quick actions

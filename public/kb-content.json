@@ -2,10 +2,11 @@
   "metadata": {
     "version": "1.0",
     "created": "2026-02-23",
-    "total_articles": 28,
-    "total_categories": 6,
+    "total_articles": 50,
+    "total_categories": 8,
     "content_source": "Helios KB Google Doc",
-    "processing_notes": "Chunked for AI retrieval, question aliases extracted, cross-links identified"
+    "processing_notes": "Chunked for AI retrieval, question aliases extracted, cross-links identified",
+    "updated": "2026-02-23"
   },
   "categories": [
     {
@@ -43,6 +44,18 @@
       "name": "Warranty, Service & Add-Ons",
       "description": "What's covered, how to get help, and upgrading your system",
       "sort_order": 6
+    },
+    {
+      "id": "solar-incentives",
+      "name": "Solar Incentives",
+      "description": "State and local solar incentives, tax credits, and financial programs by state",
+      "sort_order": 7
+    },
+    {
+      "id": "state-utilities",
+      "name": "State Utility Guide",
+      "description": "Net metering policies, utility programs, and billing explained by state",
+      "sort_order": 8
     }
   ],
   "articles": [
@@ -1338,6 +1351,760 @@
       "related_article_ids": [
         "understanding-net-metering",
         "how-solar-changes-bill"
+      ],
+      "is_published": true,
+      "created_at": "2026-02-23T00:00:00Z",
+      "updated_at": "2026-02-23T00:00:00Z"
+    },
+    {
+      "id": "ct-incentives",
+      "slug": "connecticut-solar-incentives",
+      "category_id": "solar-incentives",
+      "title": "Connecticut Solar Incentives",
+      "tags": [
+        "connecticut",
+        "incentives",
+        "ess",
+        "battery",
+        "tax-credit"
+      ],
+      "visibility": "both",
+      "question_aliases": [
+        "What solar incentives are available in Connecticut?",
+        "Does Connecticut have battery incentives?",
+        "ESS program Connecticut"
+      ],
+      "content_chunks": [
+        {
+          "chunk_index": 0,
+          "content": "Connecticut offers several solar incentives including the Residential Renewable Energy Solutions (RRES) program and the Energy Storage Solutions (ESS) program for battery storage. The ESS program provides upfront incentives of $212.50/kWh for standard customers who agree to 10 years of summer participation (June-August, 5-8 PM dispatch events).",
+          "tokens": 52
+        },
+        {
+          "chunk_index": 1,
+          "content": "The Connecticut Green Bank administers the ESS program in partnership with Eversource and United Illuminating. Program website: energystoragect.com. Customers can enroll in Passive Dispatch (upfront incentive), Active Dispatch (performance-based payments), or both.",
+          "tokens": 38
+        }
+      ],
+      "related_article_ids": [
+        "ct-utility-guide"
+      ],
+      "is_published": true,
+      "created_at": "2026-02-23T00:00:00Z",
+      "updated_at": "2026-02-23T00:00:00Z"
+    },
+    {
+      "id": "ct-utility-guide",
+      "slug": "connecticut-utility-guide",
+      "category_id": "state-utilities",
+      "title": "Connecticut Utility Guide",
+      "tags": [
+        "connecticut",
+        "net-metering",
+        "rres",
+        "eversource",
+        "ui"
+      ],
+      "visibility": "both",
+      "question_aliases": [
+        "How does net metering work in Connecticut?",
+        "What is the Solar Production Charge in CT?",
+        "Connecticut RRES program"
+      ],
+      "content_chunks": [
+        {
+          "chunk_index": 0,
+          "content": "Connecticut's Residential Renewable Energy Solutions (RRES) program offers 1-to-1 net metering under the Netting Tariff. Every kWh your system exports is credited against consumption at the same retail rate. Excess credits roll forward month to month and year to year with no expiration.",
+          "tokens": 42
+        },
+        {
+          "chunk_index": 1,
+          "content": "The Solar Production Charge (called Solar Energy Adjustment on Eversource bills) applies to all solar production based on when your RRES application was submitted. 2026 applications: $0.0402/kWh. 2025: $0.005/kWh. 2024: No charge. 2022-2023 (Eversource): $0.03/kWh credit.",
+          "tokens": 45
+        },
+        {
+          "chunk_index": 2,
+          "content": "Utilities: Eversource Energy and United Illuminating (UI). Your bill includes fixed monthly charges ($9-13), Solar Production Charge, delivery charges for grid consumption, and Net Supply Credits if you produced more than consumed.",
+          "tokens": 32
+        }
+      ],
+      "related_article_ids": [
+        "ct-incentives"
+      ],
+      "is_published": true,
+      "created_at": "2026-02-23T00:00:00Z",
+      "updated_at": "2026-02-23T00:00:00Z"
+    },
+    {
+      "id": "me-incentives",
+      "slug": "maine-solar-incentives",
+      "category_id": "solar-incentives",
+      "title": "Maine Solar Incentives",
+      "tags": [
+        "maine",
+        "incentives",
+        "recs",
+        "nepool"
+      ],
+      "visibility": "both",
+      "question_aliases": [
+        "What solar incentives are available in Maine?",
+        "Maine solar RECs"
+      ],
+      "content_chunks": [
+        {
+          "chunk_index": 0,
+          "content": "Maine solar customers on customer-owned systems are eligible for Class 1 NEPOOL-GIS RECs (Renewable Energy Certificates). Venture Home handles registration for all eligible customers. Each 1,000 kWh your system produces generates one REC that can be sold on the market.",
+          "tokens": 38
+        }
+      ],
+      "related_article_ids": [
+        "me-utility-guide"
+      ],
+      "is_published": true,
+      "created_at": "2026-02-23T00:00:00Z",
+      "updated_at": "2026-02-23T00:00:00Z"
+    },
+    {
+      "id": "me-utility-guide",
+      "slug": "maine-utility-guide",
+      "category_id": "state-utilities",
+      "title": "Maine Utility Guide",
+      "tags": [
+        "maine",
+        "net-metering",
+        "net-energy-billing",
+        "cmp",
+        "versant"
+      ],
+      "visibility": "both",
+      "question_aliases": [
+        "How does net metering work in Maine?",
+        "Maine net energy billing",
+        "CMP solar program"
+      ],
+      "content_chunks": [
+        {
+          "chunk_index": 0,
+          "content": "Maine offers 1-to-1 Net Energy Billing (also called Kilowatt-Hour Credit) through Central Maine Power (CMP) and Versant Power. Each kWh exported offsets one kWh consumed at full retail rate. Excess credits roll forward for up to 12 months, then expire.",
+          "tokens": 40
+        },
+        {
+          "chunk_index": 1,
+          "content": "Fixed customer charges ($24-28/month) cannot be offset by solar credits and apply regardless of consumption. Important: If you receive supply from a Competitive Electric Provider (CEP) via separate bill, your supply charges may not be credited. Return to full utility service for full net metering benefits.",
+          "tokens": 43
+        }
+      ],
+      "related_article_ids": [
+        "me-incentives"
+      ],
+      "is_published": true,
+      "created_at": "2026-02-23T00:00:00Z",
+      "updated_at": "2026-02-23T00:00:00Z"
+    },
+    {
+      "id": "ma-incentives",
+      "slug": "massachusetts-solar-incentives",
+      "category_id": "solar-incentives",
+      "title": "Massachusetts Solar Incentives",
+      "tags": [
+        "massachusetts",
+        "incentives",
+        "tax-credit",
+        "recs",
+        "connectedsolutions"
+      ],
+      "visibility": "both",
+      "question_aliases": [
+        "What solar incentives are available in Massachusetts?",
+        "MA state solar tax credit",
+        "ConnectedSolutions battery program"
+      ],
+      "content_chunks": [
+        {
+          "chunk_index": 0,
+          "content": "Massachusetts offers a 15% state income tax credit up to $1,000 (Form Schedule SC). Sales tax exemption (6.25%) and 20-year property tax exemption apply. Customer-owned systems earn Class 1 NEPOOL-GIS RECs. SREC-I and SREC-II programs are closed to new enrollment.",
+          "tokens": 41
+        },
+        {
+          "chunk_index": 1,
+          "content": "Battery customers can enroll in ConnectedSolutions for payments during peak demand events. Enrollment is voluntary. Tax credit can carry forward up to 5 years if you don't have sufficient liability in year one. Consult a tax professional for your specific situation.",
+          "tokens": 38
+        }
+      ],
+      "related_article_ids": [
+        "ma-utility-guide"
+      ],
+      "is_published": true,
+      "created_at": "2026-02-23T00:00:00Z",
+      "updated_at": "2026-02-23T00:00:00Z"
+    },
+    {
+      "id": "ma-utility-guide",
+      "slug": "massachusetts-utility-guide",
+      "category_id": "state-utilities",
+      "title": "Massachusetts Utility Guide",
+      "tags": [
+        "massachusetts",
+        "net-metering",
+        "eversource",
+        "national-grid",
+        "unitil"
+      ],
+      "visibility": "both",
+      "question_aliases": [
+        "How does net metering work in Massachusetts?",
+        "MA net metering cap"
+      ],
+      "content_chunks": [
+        {
+          "chunk_index": 0,
+          "content": "Massachusetts offers full 1-to-1 net metering for residential systems up to 25 kW AC (increased from 10 kW in February 2025). Utilities: Eversource, National Grid, and Unitil. Credits roll forward indefinitely with no expiration.",
+          "tokens": 35
+        },
+        {
+          "chunk_index": 1,
+          "content": "Customer-owned systems (cash, loan, Participate Energy) are enrolled in Net Metering + Class 1 RECs. TPO customers (lease/PPA) receive Net Metering only. Fixed charges ($10-15/month) cannot be offset by solar credits.",
+          "tokens": 33
+        }
+      ],
+      "related_article_ids": [
+        "ma-incentives"
+      ],
+      "is_published": true,
+      "created_at": "2026-02-23T00:00:00Z",
+      "updated_at": "2026-02-23T00:00:00Z"
+    },
+    {
+      "id": "nh-incentives",
+      "slug": "new-hampshire-solar-incentives",
+      "category_id": "solar-incentives",
+      "title": "New Hampshire Solar Incentives",
+      "tags": [
+        "new-hampshire",
+        "incentives",
+        "recs",
+        "nepool"
+      ],
+      "visibility": "both",
+      "question_aliases": [
+        "What solar incentives are available in New Hampshire?",
+        "NH solar RECs"
+      ],
+      "content_chunks": [
+        {
+          "chunk_index": 0,
+          "content": "New Hampshire solar customers are eligible for Class 1 NEPOOL-GIS RECs. Venture Home handles registration. See the REC registration article for details on how this works and what action you need to take.",
+          "tokens": 32
+        }
+      ],
+      "related_article_ids": [
+        "nh-utility-guide"
+      ],
+      "is_published": true,
+      "created_at": "2026-02-23T00:00:00Z",
+      "updated_at": "2026-02-23T00:00:00Z"
+    },
+    {
+      "id": "nh-utility-guide",
+      "slug": "new-hampshire-utility-guide",
+      "category_id": "state-utilities",
+      "title": "New Hampshire Utility Guide",
+      "tags": [
+        "new-hampshire",
+        "net-metering",
+        "alternative-net-metering",
+        "eversource",
+        "unitil",
+        "liberty"
+      ],
+      "visibility": "both",
+      "question_aliases": [
+        "How does net metering work in New Hampshire?",
+        "NH alternative net metering"
+      ],
+      "content_chunks": [
+        {
+          "chunk_index": 0,
+          "content": "New Hampshire's Alternative Net Metering Tariff offers monthly netting at nearly full retail rate for production consumed in the same billing period. You pay only 1-2 cents/kWh in non-bypassable charges on offset consumption.",
+          "tokens": 35
+        },
+        {
+          "chunk_index": 1,
+          "content": "Monthly excess production rolls over at a reduced rate (supply + transmission + 25% of distribution). Only about 10% of annual production receives the lower rollover rate. Credits roll forward indefinitely. Utilities: Eversource NH, Unitil, Liberty Utilities.",
+          "tokens": 38
+        },
+        {
+          "chunk_index": 2,
+          "content": "Important: Competitive Electric Suppliers are not required to provide net metering credits. If you receive supply from a third-party provider, return to standard full-service electricity to maximize net metering value.",
+          "tokens": 32
+        }
+      ],
+      "related_article_ids": [
+        "nh-incentives"
+      ],
+      "is_published": true,
+      "created_at": "2026-02-23T00:00:00Z",
+      "updated_at": "2026-02-23T00:00:00Z"
+    },
+    {
+      "id": "nj-incentives",
+      "slug": "new-jersey-solar-incentives",
+      "category_id": "solar-incentives",
+      "title": "New Jersey Solar Incentives",
+      "tags": [
+        "new-jersey",
+        "incentives",
+        "trecs",
+        "transition-recs"
+      ],
+      "visibility": "both",
+      "question_aliases": [
+        "What solar incentives are available in New Jersey?",
+        "NJ TREC program",
+        "New Jersey solar incentives 2025"
+      ],
+      "content_chunks": [
+        {
+          "chunk_index": 0,
+          "content": "New Jersey's Transition Renewable Energy Certificate (TREC) program pays customer-owned solar systems a fixed per-kWh incentive. TRECs are registered through the NJ Clean Energy Program. Venture Home handles enrollment for eligible systems.",
+          "tokens": 34
+        }
+      ],
+      "related_article_ids": [
+        "nj-utility-guide"
+      ],
+      "is_published": true,
+      "created_at": "2026-02-23T00:00:00Z",
+      "updated_at": "2026-02-23T00:00:00Z"
+    },
+    {
+      "id": "nj-utility-guide",
+      "slug": "new-jersey-utility-guide",
+      "category_id": "state-utilities",
+      "title": "New Jersey Utility Guide",
+      "tags": [
+        "new-jersey",
+        "net-metering",
+        "pse&g",
+        "jcpl",
+        "atlantic-city-electric"
+      ],
+      "visibility": "both",
+      "question_aliases": [
+        "How does net metering work in New Jersey?",
+        "NJ anniversary month",
+        "New Jersey solar true-up"
+      ],
+      "content_chunks": [
+        {
+          "chunk_index": 0,
+          "content": "New Jersey requires all major utilities to provide 1-to-1 net metering regardless of supply service. Each kWh exported earns a credit for future use at full retail rate. Credits roll forward indefinitely in a NEM bank.",
+          "tokens": 35
+        },
+        {
+          "chunk_index": 1,
+          "content": "Anniversary Month: Credits reset once yearly. Remaining credits paid at wholesale rate (3-5¢/kWh). Default is 1-2 months after PTO. You can change it once. Recommendation: February (accumulate summer/fall credits, draw down winter).",
+          "tokens": 35
+        },
+        {
+          "chunk_index": 2,
+          "content": "Time of Use (TOU) rates are NOT recommended — each time period has separate NEM banks and credits cannot cross periods. Stay on standard rate plan. Utilities: PSE&G, JCP&L, Atlantic City Electric, Rockland Electric.",
+          "tokens": 35
+        }
+      ],
+      "related_article_ids": [
+        "nj-incentives"
+      ],
+      "is_published": true,
+      "created_at": "2026-02-23T00:00:00Z",
+      "updated_at": "2026-02-23T00:00:00Z"
+    },
+    {
+      "id": "ny-incentives",
+      "slug": "new-york-solar-incentives",
+      "category_id": "solar-incentives",
+      "title": "New York Solar Incentives",
+      "tags": [
+        "new-york",
+        "incentives",
+        "tax-credit",
+        "battery",
+        "dlm"
+      ],
+      "visibility": "both",
+      "question_aliases": [
+        "What solar incentives are available in New York?",
+        "NYS solar tax credit",
+        "NY battery incentive"
+      ],
+      "content_chunks": [
+        {
+          "chunk_index": 0,
+          "content": "New York offers the NYS Solar & Storage Tax Credit: 25% of qualified costs up to $5,000 (Form IT-255). Available for purchased AND leased systems. Can carry forward up to 5 years. Consult a tax professional.",
+          "tokens": 35
+        },
+        {
+          "chunk_index": 1,
+          "content": "Battery customers served by Con Edison can enroll in the Distributed Load Management (DLM) program for payments during peak demand. Contact our team for current enrollment details. This credit is available even for leased systems.",
+          "tokens": 33
+        }
+      ],
+      "related_article_ids": [
+        "ny-utility-guide"
+      ],
+      "is_published": true,
+      "created_at": "2026-02-23T00:00:00Z",
+      "updated_at": "2026-02-23T00:00:00Z"
+    },
+    {
+      "id": "ny-utility-guide",
+      "slug": "new-york-utility-guide",
+      "category_id": "state-utilities",
+      "title": "New York Utility Guide",
+      "tags": [
+        "new-york",
+        "net-metering",
+        "cbc",
+        "con-edison",
+        "national-grid"
+      ],
+      "visibility": "both",
+      "question_aliases": [
+        "How does net metering work in New York?",
+        "NY Customer Benefit Contribution",
+        "New York CBC charge"
+      ],
+      "content_chunks": [
+        {
+          "chunk_index": 0,
+          "content": "New York requires all utilities to provide 1-to-1 net metering. Credits roll forward up to 20 years with no annual expiration. Third-party suppliers must also credit supply charges 1-to-1.",
+          "tokens": 30
+        },
+        {
+          "chunk_index": 1,
+          "content": "Customer Benefit Contribution (CBC) Charge: For systems installed after 2021, monthly charge based on system DC capacity (kW), not production. Con Edison: $1.29/kW. National Grid: $0.97/kW. Example: 8 kW system with National Grid = $7.76/month CBC.",
+          "tokens": 40
+        },
+        {
+          "chunk_index": 2,
+          "content": "Utilities: Con Edison, National Grid NY, Central Hudson, PSEG Long Island, NYSEG, RG&E, Orange & Rockland. Standard Basic Service Charge: $16-24/month.",
+          "tokens": 24
+        }
+      ],
+      "related_article_ids": [
+        "ny-incentives"
+      ],
+      "is_published": true,
+      "created_at": "2026-02-23T00:00:00Z",
+      "updated_at": "2026-02-23T00:00:00Z"
+    },
+    {
+      "id": "pa-incentives",
+      "slug": "pennsylvania-solar-incentives",
+      "category_id": "solar-incentives",
+      "title": "Pennsylvania Solar Incentives",
+      "tags": [
+        "pennsylvania",
+        "incentives",
+        "srecs",
+        "pjm-gats"
+      ],
+      "visibility": "both",
+      "question_aliases": [
+        "What solar incentives are available in Pennsylvania?",
+        "PA SREC program",
+        "Pennsylvania solar credits"
+      ],
+      "content_chunks": [
+        {
+          "chunk_index": 0,
+          "content": "Pennsylvania solar customers earn Solar Renewable Energy Certificates (SRECs) via the PJM-GATS registry. Each 1,000 kWh produced generates one SREC that can be sold on the open market. Venture Home handles registration for eligible customer-owned systems.",
+          "tokens": 38
+        }
+      ],
+      "related_article_ids": [
+        "pa-utility-guide"
+      ],
+      "is_published": true,
+      "created_at": "2026-02-23T00:00:00Z",
+      "updated_at": "2026-02-23T00:00:00Z"
+    },
+    {
+      "id": "pa-utility-guide",
+      "slug": "pennsylvania-utility-guide",
+      "category_id": "state-utilities",
+      "title": "Pennsylvania Utility Guide",
+      "tags": [
+        "pennsylvania",
+        "net-metering",
+        "annual-cash-out",
+        "ppl",
+        "peco"
+      ],
+      "visibility": "both",
+      "question_aliases": [
+        "How does net metering work in Pennsylvania?",
+        "PA annual cash out",
+        "Pennsylvania solar true-up"
+      ],
+      "content_chunks": [
+        {
+          "chunk_index": 0,
+          "content": "Pennsylvania offers 1-to-1 net metering for full-service customers. Each kWh exported earns a credit for future use at full retail rate. Credits roll forward month to month.",
+          "tokens": 30
+        },
+        {
+          "chunk_index": 1,
+          "content": "Annual Cash-Out: After the May billing cycle, remaining credits are paid out at the Price to Compare rate (~half retail). Summer credits rolled into winter are fully valuable, but leftover balance after May is paid at reduced rate. Plan to consume credits before May.",
+          "tokens": 42
+        },
+        {
+          "chunk_index": 2,
+          "content": "Important: Competitive Electric Suppliers are not required to provide net metering credits. Return to full-service electricity to maximize value. Utilities: PPL Electric, PECO Energy, Duquesne Light, West Penn Power.",
+          "tokens": 33
+        }
+      ],
+      "related_article_ids": [
+        "pa-incentives"
+      ],
+      "is_published": true,
+      "created_at": "2026-02-23T00:00:00Z",
+      "updated_at": "2026-02-23T00:00:00Z"
+    },
+    {
+      "id": "ri-incentives",
+      "slug": "rhode-island-solar-incentives",
+      "category_id": "solar-incentives",
+      "title": "Rhode Island Solar Incentives",
+      "tags": [
+        "rhode-island",
+        "incentives",
+        "battery",
+        "connectedsolutions"
+      ],
+      "visibility": "both",
+      "question_aliases": [
+        "What solar incentives are available in Rhode Island?",
+        "RI battery incentives"
+      ],
+      "content_chunks": [
+        {
+          "chunk_index": 0,
+          "content": "Rhode Island battery customers can participate in ConnectedSolutions, a demand response program that pays for battery dispatch during peak demand periods. Ask our team about current incentive rates and enrollment.",
+          "tokens": 31
+        }
+      ],
+      "related_article_ids": [
+        "ri-utility-guide"
+      ],
+      "is_published": true,
+      "created_at": "2026-02-23T00:00:00Z",
+      "updated_at": "2026-02-23T00:00:00Z"
+    },
+    {
+      "id": "ri-utility-guide",
+      "slug": "rhode-island-utility-guide",
+      "category_id": "state-utilities",
+      "title": "Rhode Island Utility Guide",
+      "tags": [
+        "rhode-island",
+        "net-metering",
+        "national-grid"
+      ],
+      "visibility": "both",
+      "question_aliases": [
+        "How does net metering work in Rhode Island?",
+        "Rhode Island solar program"
+      ],
+      "content_chunks": [
+        {
+          "chunk_index": 0,
+          "content": "Rhode Island offers 1-to-1 net metering through National Grid. Each kWh exported offsets one kWh consumed at full retail rate. Excess credits roll forward month to month. The program provides straightforward net metering with no annual expiration.",
+          "tokens": 38
+        }
+      ],
+      "related_article_ids": [
+        "ri-incentives"
+      ],
+      "is_published": true,
+      "created_at": "2026-02-23T00:00:00Z",
+      "updated_at": "2026-02-23T00:00:00Z"
+    },
+    {
+      "id": "de-incentives",
+      "slug": "delaware-solar-incentives",
+      "category_id": "solar-incentives",
+      "title": "Delaware Solar Incentives",
+      "tags": [
+        "delaware",
+        "incentives",
+        "srecs",
+        "grant"
+      ],
+      "visibility": "both",
+      "question_aliases": [
+        "What solar incentives are available in Delaware?",
+        "Delaware solar grants"
+      ],
+      "content_chunks": [
+        {
+          "chunk_index": 0,
+          "content": "Delaware offers solar incentives including SRECs and grant programs. Contact Venture Home for current incentive availability and eligibility requirements for your specific installation.",
+          "tokens": 26
+        }
+      ],
+      "related_article_ids": [
+        "de-utility-guide"
+      ],
+      "is_published": true,
+      "created_at": "2026-02-23T00:00:00Z",
+      "updated_at": "2026-02-23T00:00:00Z"
+    },
+    {
+      "id": "de-utility-guide",
+      "slug": "delaware-utility-guide",
+      "category_id": "state-utilities",
+      "title": "Delaware Utility Guide",
+      "tags": [
+        "delaware",
+        "net-metering",
+        "delmarva"
+      ],
+      "visibility": "both",
+      "question_aliases": [
+        "How does net metering work in Delaware?",
+        "Delmarva solar program"
+      ],
+      "content_chunks": [
+        {
+          "chunk_index": 0,
+          "content": "Delaware offers net metering through Delmarva Power. Solar customers receive credits for excess production that can offset future usage. Contact Venture Home for specific program details and current rates.",
+          "tokens": 30
+        }
+      ],
+      "related_article_ids": [
+        "de-incentives"
+      ],
+      "is_published": true,
+      "created_at": "2026-02-23T00:00:00Z",
+      "updated_at": "2026-02-23T00:00:00Z"
+    },
+    {
+      "id": "md-incentives",
+      "slug": "maryland-solar-incentives",
+      "category_id": "solar-incentives",
+      "title": "Maryland Solar Incentives",
+      "tags": [
+        "maryland",
+        "incentives",
+        "srecs",
+        "grant"
+      ],
+      "visibility": "both",
+      "question_aliases": [
+        "What solar incentives are available in Maryland?",
+        "Maryland solar grants",
+        "MD SREC program"
+      ],
+      "content_chunks": [
+        {
+          "chunk_index": 0,
+          "content": "Maryland offers solar incentives including SRECs and various grant programs. Venture Home can provide details on current programs and help with enrollment for eligible customer-owned systems.",
+          "tokens": 29
+        }
+      ],
+      "related_article_ids": [
+        "md-utility-guide"
+      ],
+      "is_published": true,
+      "created_at": "2026-02-23T00:00:00Z",
+      "updated_at": "2026-02-23T00:00:00Z"
+    },
+    {
+      "id": "md-utility-guide",
+      "slug": "maryland-utility-guide",
+      "category_id": "state-utilities",
+      "title": "Maryland Utility Guide",
+      "tags": [
+        "maryland",
+        "net-metering",
+        "bge",
+        "peco",
+        "delmarva"
+      ],
+      "visibility": "both",
+      "question_aliases": [
+        "How does net metering work in Maryland?",
+        "Maryland solar net metering"
+      ],
+      "content_chunks": [
+        {
+          "chunk_index": 0,
+          "content": "Maryland offers net metering through utilities including BGE, Pepco, and Delmarva Power. Solar customers receive credits for excess production. Contact Venture Home for specific program details.",
+          "tokens": 29
+        }
+      ],
+      "related_article_ids": [
+        "md-incentives"
+      ],
+      "is_published": true,
+      "created_at": "2026-02-23T00:00:00Z",
+      "updated_at": "2026-02-23T00:00:00Z"
+    },
+    {
+      "id": "dc-incentives",
+      "slug": "washington-dc-solar-incentives",
+      "category_id": "solar-incentives",
+      "title": "Washington DC Solar Incentives",
+      "tags": [
+        "washington-dc",
+        "incentives",
+        "srecs"
+      ],
+      "visibility": "both",
+      "question_aliases": [
+        "What solar incentives are available in Washington DC?",
+        "DC solar incentives"
+      ],
+      "content_chunks": [
+        {
+          "chunk_index": 0,
+          "content": "Washington DC offers solar incentives through the SREC market. Venture Home can provide details on current SREC values and help with program enrollment for eligible systems.",
+          "tokens": 28
+        }
+      ],
+      "related_article_ids": [
+        "dc-utility-guide"
+      ],
+      "is_published": true,
+      "created_at": "2026-02-23T00:00:00Z",
+      "updated_at": "2026-02-23T00:00:00Z"
+    },
+    {
+      "id": "dc-utility-guide",
+      "slug": "washington-dc-utility-guide",
+      "category_id": "state-utilities",
+      "title": "Washington DC Utility Guide",
+      "tags": [
+        "washington-dc",
+        "net-metering",
+        "pepco"
+      ],
+      "visibility": "both",
+      "question_aliases": [
+        "How does net metering work in Washington DC?",
+        "DC solar net metering"
+      ],
+      "content_chunks": [
+        {
+          "chunk_index": 0,
+          "content": "Washington DC offers net metering through Pepco. Solar customers receive credits for excess production that can offset future usage. Contact Venture Home for specific program details.",
+          "tokens": 29
+        }
+      ],
+      "related_article_ids": [
+        "dc-incentives"
       ],
       "is_published": true,
       "created_at": "2026-02-23T00:00:00Z",
