@@ -37,8 +37,40 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: 'Bagoss';
+  src: url('https://venturehome.com/fonts/BagossStandard-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Bagoss';
+  src: url('https://venturehome.com/fonts/BagossStandard-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Bagoss';
+  src: url('https://venturehome.com/fonts/BagossStandard-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Bagoss';
+  src: url('https://venturehome.com/fonts/BagossStandard-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Bagoss', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   background: var(--bg-page);
   color: var(--text-primary);
   line-height: 1.6;
@@ -92,12 +124,14 @@ body {
   max-width: var(--max-width);
   margin: 0 auto;
   padding: 1.25rem 1.5rem;
+  display: flex;
+  justify-content: center;
 }
 
 .logo-link {
   text-decoration: none;
   display: flex;
-  align-items: center;
+  align-items: baseline;
   gap: 0.75rem;
 }
 
@@ -105,12 +139,14 @@ body {
   font-size: 1.25rem;
   font-weight: 400;
   color: var(--text-secondary);
-  margin-left: 0.5rem;
 }
 
 /* Main Content */
 .main-content {
   flex: 1;
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
 /* Hero Section */
@@ -129,10 +165,12 @@ body {
   margin-bottom: 2rem;
   color: var(--charcoal);
   letter-spacing: -0.02em;
+  width: 100%;
 }
 
 .search-wrapper-large {
   max-width: 600px;
+  width: 100%;
   margin: 0 auto;
   position: relative;
 }
@@ -233,6 +271,10 @@ body {
   margin: 0 auto;
   padding: 3rem 1.5rem;
   text-align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .collections-grid {
@@ -275,13 +317,6 @@ body {
 }
 
 .collection-icon {
-  width: 56px;
-  height: 56px;
-  background: var(--mint);
-  border-radius: var(--radius-md);
-  display: flex;
-  align-items: center;
-  justify-content: center;
   color: var(--charcoal);
   flex-shrink: 0;
 }
